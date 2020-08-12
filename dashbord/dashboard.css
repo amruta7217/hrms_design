@@ -165,10 +165,18 @@ body {
   margin-left: 22px;
 }
 .birth_circle {
-  width: 10px;
-  height: 10px;
-  background: #fff;
+  width: 30px;
+  height: 30px;
+  background: #7cbe5f;
   border-radius: 50px;
+  position: absolute;
+  display: flex;
+  right: 32px;
+  top: 8px;
+  /* text-align: center; */
+  justify-content: center;
+  align-items: center;
+  color: #fff;
 }
 
 .employee_anniversary_container {
@@ -177,6 +185,20 @@ body {
   width: 307px;
   box-shadow: 0px 0px 6px;
   border-radius: 6px;
+}
+.birth_circle {
+  width: 26px;
+  height: 26px;
+  background: #7cbe5f;
+  border-radius: 50px;
+  position: absolute;
+  display: flex;
+  right: 32px;
+  top: 8px;
+  /* text-align: center; */
+  justify-content: center;
+  align-items: center;
+  color: #fff;
 }
 .employee_ToDo_container {
   background-color: #fff;
@@ -202,7 +224,14 @@ body {
   border-radius: 6px;
   margin-left: -28px;
 }
-
+.top-left_quick {
+  position: absolute;
+  top: 10px;
+  left: 16px;
+  color: white;
+  font-size: 14px;
+  margin-left: -9px;
+}
 h1 {
   text-align: right;
   margin-bottom: 5px;
@@ -210,5 +239,5 @@ h1 {
 .emptext {
   color: black;
   text-align: center;
-  font-size: 15px;
+  font-size: 12px;
 }
