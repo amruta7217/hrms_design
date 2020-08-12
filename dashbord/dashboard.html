@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Creative - Bootstrap 3 Responsive Admin Template"
+    />
+    <meta name="author" content="GeeksLabs" />
+    <meta
+      name="keyword"
+      content="Creative, Dashboard, Admin, Template, Theme, Bootstrap, Responsive, Retina, Minimal"
+    />
+
+    <title>
+      Dashboard
+    </title>
+
+    <link href="dashboard.css" rel="stylesheet" />
+    <!-- Bootstrap CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet" />
+    <!-- bootstrap theme -->
+    <link href="../css/bootstrap-theme.css" rel="stylesheet" />
+    <!--external css-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+    />
+    <!--chart theme-->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <link href="../css/style.css" rel="stylesheet" />
+
+    <link href="../css/style-responsive.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="row" style="background: green; padding: 12px 20px;">
+      <div class="col-md-6 col-lg-6">
+        <div class="logo">S U P Y N E</div>
+      </div>
+      <div class="col-md-6 col-lg-6">
+        <div class="row">
+          <div class="col-md-6 col-lg-6">
+            <div class="searchbar">
+              <input type="search" class="searchField" placeholder="" />
+              <div class="searchIcon">
+                <i class="fa fa-search" aria-hidden="true"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2 col-lg-2">
+            <div class="circle"></div>
+          </div>
+
+          <div class="col-md-1 col-lg-1">
+            <div class="bellIcon">
+              <img
+                src="../img/notification.png"
+                alt="logo"
+                width="20"
+                height="20"
+              />
+            </div>
+          </div>
+          <div class="col-md-1 col-lg-1">
+            <div class="calenderIcon">
+              <img
+                src="../img/calender.png"
+                alt="logo"
+                width="20"
+                height="20"
+              />
+            </div>
+          </div>
+          <div class="col-md-2 col-lg-2">
+            <div class="logo">Help</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <nav id="navbar-example2" class="navbar navbar-light bg-light">
+      <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a class="nav-link" href="">Dashboard</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="">Employees</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="">Attendance</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="">Leaves</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="">Payroll</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="">Expences</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="">Performance</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="">Visitors</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="">Delights</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="">Dhwani</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="my-container">
+      <div class="row">
+        <div class="col-md-5 col-lg-5">
+          <div class="employee_container" style="color: #fff;">
+            <div class="row">
+              <div class="col-md-3 col-lg-3">
+                <div class="active_employee_container">
+                  <div class="text-center">Active Employees</div>
+
+                  <div class="text-center employee_number">77</div>
+                </div>
+              </div>
+              <div class="col-md-3 col-lg-3">
+                <div class="male_employee_container">
+                  <div class="text-center">Male Employees</div>
+                  <div class="text-center employee_number">77</div>
+                </div>
+              </div>
+              <div class="col-md-3 col-lg-3">
+                <div class="female_employee_container">
+                  <div class="text-center">Female Employees</div>
+                  <div class="text-center employee_number">77</div>
+                </div>
+              </div>
+              <div class="col-md-3 col-lg-3">
+                <div class="performance_rating_container">
+                  <div class="text-center">Performance Rating</div>
+
+                  <div class="text-center employee_number">77</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row" style="margin-top: 15px;">
+              <div class="col-md-3 col-lg-3">
+                <div class="new_joinees_container">
+                  <div class="text-center">New Joinees</div>
+                  <div class="text-center employee_number">77</div>
+                </div>
+              </div>
+              <div class="col-md-3 col-lg-3">
+                <div class="resignees_container">
+                  <div class="text-center">Resignees</div>
+                  <div class="text-center employee_number">77</div>
+                </div>
+              </div>
+              <div class="col-md-3 col-lg-3">
+                <div class="Attrition_rate_container">
+                  <div class="text-center">Attrition Rate</div>
+                  <div class="text-center employee_number">77</div>
+                </div>
+              </div>
+              <div class="col-md-3 col-lg-3">
+                <div class="open_positions_container">
+                  <div class="text-center">Open Positions</div>
+                  <div class="text-center employee_number">77</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-7 col-lg-7">
+          <div class="employee_container">
+            <div>
+              <div class="row">
+                <div class="col-md-4 col-lg-4">
+                  <canvas id="myChart"></canvas>
+                  <div class="emptext mx-2 mt-2 mb-2">
+                    Department Wise Employee
+                  </div>
+                </div>
+                <div class="col-md-4 col-lg-4 chart">
+                  <canvas id="myChart2"></canvas>
+                  <div class="emptext">Location Wise Employee</div>
+                </div>
+                <div class="col-md-4 col-lg-4 chart">
+                  <canvas id="myChart5"></canvas>
+                  <div class="emptext">Number of Employees by category</div>
+                </div>
+
+                <div class="col-md-4 col-lg-4 chart">
+                  <canvas id="myChart3"></canvas>
+                  <div class="emptext">Head count by Age</div>
+                </div>
+                <div class="col-md-4 col-lg-4 chart">
+                  <canvas id="myChart4"></canvas>
+                  <div class="emptext">Head Count by Education</div>
+                </div>
+                <div class="col-md-4 col-lg-4 chart">
+                  <canvas id="myChart6"></canvas>
+                  <div class="emptext">New Joinees</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-4 mb-3">
+        <div class="col-md-3 col-lg-3">
+          <div class="employee_birthday_container">
+            <img src="../img/Birthdays.png" alt="logo" />
+            <div class="top-left">Birthday's</div>
+            <div class="p-5">
+              <div class="row">
+                <div class="col-lg-4 col-lg-4">
+                  <img
+                    src="../img/avtar.jpg"
+                    alt="logo"
+                    width="60"
+                    height="60"
+                    style="border-radius: 50%;"
+                  />
+                  <div class="text-center mt-2">John</div>
+                </div>
+                <div class="col-lg-4 col-lg-4">
+                  <img
+                    src="../img/avtar.jpg"
+                    alt="logo"
+                    width="60"
+                    height="60"
+                    style="border-radius: 50%;"
+                  />
+                  <div class="text-center mt-2">John</div>
+                </div>
+                <div class="col-lg-4 col-lg-4">
+                  <img
+                    src="../img/avtar.jpg"
+                    alt="logo"
+                    width="60"
+                    height="60"
+                    style="border-radius: 50%;"
+                  />
+                  <div class="text-center mt-2">John</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-lg-3">
+          <div class="employee_anniversary_container">
+            <img src="../img/Anniversary.png" alt="logo" />
+            <div class="top-left">Anniversary</div>
+            <div class="p-5">
+              <div class="row">
+                <div class="col-lg-4 col-lg-4">
+                  <img
+                    src="../img/avtar.jpg"
+                    alt="logo"
+                    width="60"
+                    height="60"
+                    style="border-radius: 50%;"
+                  />
+                  <div class="text-center mt-2">John</div>
+                </div>
+                <div class="col-lg-4 col-lg-4">
+                  <img
+                    src="../img/avtar.jpg"
+                    alt="logo"
+                    width="60"
+                    height="60"
+                    style="border-radius: 50%;"
+                  />
+                  <div class="text-center mt-2">John</div>
+                </div>
+                <div class="col-lg-4 col-lg-4">
+                  <img
+                    src="../img/avtar.jpg"
+                    alt="logo"
+                    width="60"
+                    height="60"
+                    style="border-radius: 50%;"
+                  />
+                  <div class="text-center mt-2">John</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-lg-3">
+          <div class="employee_ToDo_container">
+            <img src="../img/ToDo.png" alt="logo" />
+            <div class="top-left">ToDo List</div>
+            <div class="text-block">
+              <div>ADD</div>
+            </div>
+            <div class="p-4">
+              <h4>Event</h4>
+              <div class="row">
+                <div class="col-md-9 col-lg-9">
+                  <p>Arrangement of weekend activity</p>
+                </div>
+                <div class="col-md-1 col-lg-1">
+                  <img src="../img/edit.png" width="10" height="10" />
+                </div>
+                <div class="col-md-1 col-lg-1">
+                  <img src="../img/close.png" width="10" height="10" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-lg-3">
+          <div class="employee_QuickLinks_container">
+            <img src="../img/QuickLinks.png" alt="logo" />
+            <div class="top-left">Quick Links</div>
+            <div class="p-5">
+              <div class="row">
+                <div class="col-lg-4 col-lg-4">
+                  <img
+                    src="../img/CompanyPolicy.png"
+                    alt="logo"
+                    width="60"
+                    height="60"
+                    style="border-radius: 50%;"
+                  />
+                  <div class="text-center mt-2">Company Policies</div>
+                </div>
+                <div class="col-lg-4 col-lg-4">
+                  <img
+                    src="../img/Organizationchart.png"
+                    alt="logo"
+                    width="60"
+                    height="60"
+                    style="border-radius: 50%;"
+                  />
+                  <div class="text-center mt-2">Organization Chart</div>
+                </div>
+                <div class="col-lg-4 col-lg-4">
+                  <img
+                    src="../img/holiday.png"
+                    alt="logo"
+                    width="60"
+                    height="60"
+                    style="border-radius: 50%;"
+                  />
+                  <div class="text-center mt-2">Holiday Calender</div>
+                </div>
+              </div>
+              <div class="row mt-3">
+                <div class="col-lg-4 col-lg-4">
+                  <img
+                    src="../img/poll.png"
+                    alt="logo"
+                    width="60"
+                    height="60"
+                    style="border-radius: 50%;"
+                  />
+                  <div class="text-center mt-2">Polls</div>
+                </div>
+                <div class="col-lg-4 col-lg-4">
+                  <img
+                    src="../img/request.png"
+                    alt="logo"
+                    width="60"
+                    height="60"
+                    style="border-radius: 50%;"
+                  />
+                  <div class="text-center mt-2">Requests</div>
+                </div>
+                <div class="col-lg-4 col-lg-4">
+                  <img
+                    src="../img/report.png"
+                    alt="logo"
+                    width="60"
+                    height="60"
+                    style="border-radius: 50%;"
+                  />
+                  <div class="text-center mt-2">Reports</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
