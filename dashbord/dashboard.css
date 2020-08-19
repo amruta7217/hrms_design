@@ -164,7 +164,7 @@ body {
   font-size: 14px;
   margin-left: 22px;
 }
-.birth_circle {
+/* .birth_circle {
   width: 30px;
   height: 30px;
   background: #7cbe5f;
@@ -173,11 +173,10 @@ body {
   display: flex;
   right: 32px;
   top: 8px;
-  /* text-align: center; */
   justify-content: center;
   align-items: center;
   color: #fff;
-}
+} */
 
 .employee_anniversary_container {
   background-color: #fff;
@@ -195,11 +194,11 @@ body {
   display: flex;
   right: 32px;
   top: 8px;
-  /* text-align: center; */
   justify-content: center;
   align-items: center;
   color: #fff;
 }
+
 .employee_ToDo_container {
   background-color: #fff;
   /* height: 200px; */
@@ -214,6 +213,8 @@ body {
   right: 20px;
   background-color: white;
   color: black;
+  padding: 1px 4px;
+  border-radius: 4px;
 }
 
 .employee_QuickLinks_container {
