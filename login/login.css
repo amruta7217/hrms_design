@@ -31,10 +31,16 @@
 }
 
 .btn_wrapper {
-  padding: 2rem 0 2rem 16rem;
+  padding: 2rem 0 1rem 16rem;
 }
 
 .btn_custom {
   background: rgb(124, 190, 95);
   color: #fff;
+}
+
+.footer_end {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12rem;
 }
