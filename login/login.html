@@ -28,42 +28,46 @@
     <link href="../css/style-responsive.css" rel="stylesheet" />
   </head>
 
-  <body class="login_container">
-    <div class="login_wrapper">
-      <img src="../img/logo.png" alt="logo" />
-    </div>
-    <div class="login_input">
-      <form>
-        <div class="form-group">
-          <input
-            type="email"
-            placeholder="Organization Code"
-            class="input_box"
-            id="exampleInputEmail1"
-            aria-describedby="emailHelp"
-          />
+  <body>
+    <div class="">
+      <div class="col-lg-4 col-md-6 col-sm-12 login_wrapper">
+        <div class="login_logo">
+          <img src="../img/logo.png" alt="logo" />
         </div>
-        <div class="form-group">
-          <input
-            type="password"
-            class="input_box"
-            id="exampleInputPassword1"
-            placeholder="Email"
-          />
-        </div>
-        <div class="form-group">
-          <input
-            type="password"
-            class="input_box"
-            id="exampleInputPassword1"
-            placeholder="Password"
-          />
-        </div>
+        <div class="login_input">
+          <form>
+            <div class="form-group">
+              <input
+                type="email"
+                placeholder="Organization Code"
+                class="input_box"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="password"
+                class="input_box"
+                id="exampleInputPassword1"
+                placeholder="Email"
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="password"
+                class="input_box"
+                id="exampleInputPassword1"
+                placeholder="Password"
+              />
+            </div>
 
-        <div class="btn_wrapper">
-          <button type="submit" class="btn btn_custom">
-            Sign In
-          </button>
+            <div class="btn_wrapper">
+              <button type="submit" class="btn btn_custom">
+                Sign In
+              </button>
+            </div>
+          </form>
         </div>
         <div class="row">
           <div class="form-group form-check col-md-2 col-lg-2">
@@ -80,18 +84,16 @@
             <a href="">Forgot Password</a>
           </div>
         </div>
-      </form>
-      <!-- Footer -->
-      <footer class="footer_end">
-        <div class="">
-          Copyright © 2020-21
-          <a href="https://mdbootstrap.com/">Supyne.</a>
-          All Rights Reserved
-        </div>
-        <div class="">
-          <div>Privacy Policy Legal</div>
-        </div>
-      </footer>
+      </div>
+      <div class="col-lg-8 col-md-6 col-sm-12 login_main_image_wrapper">
+        <img
+          src="../img/login.png"
+          alt="login"
+          style="height: 50rem;"
+          class="login_image"
+        />
+      </div>
     </div>
+    <script src="../js/bootstrap.min.js"></script>
   </body>
 </html>
