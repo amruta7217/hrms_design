@@ -14,25 +14,21 @@
 .login_image {
   height: 50rem;
 }
-
-@media only screen and (max-width: 1024px) and (min-width: 1440px) {
+@media only screen and (max-width: 1440px) and (min-width: 1024px) {
   .login_image {
-    height: 40rem;
+    height: 46rem;
   }
 }
 
 .login_wrapper {
   background: #f5fbfc;
   height: 100vh;
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
 }
 
 .login_logo {
   display: flex;
   justify-content: center;
-  margin-top: calc(100% - 60%);
+  padding-top: calc(100% - 60%);
 }
 
 .login_input {
@@ -59,7 +55,8 @@
 }
 
 .btn_wrapper {
-  padding: 2rem 0 1rem 16rem;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .btn_custom {
@@ -67,8 +64,10 @@
   color: #fff;
 }
 
-.footer_end {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 12rem;
-}
+/* .footer_end {
+  margin-top: calc(100% - 90%);
+} */
+/* .footer_policy {
+  margin-top: calc(100% - 90%);
+  margin-bottom: calc(100vh - 10vh);
+} */
