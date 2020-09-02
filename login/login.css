@@ -64,9 +64,9 @@
   color: #fff;
 }
 
-/* .footer_end {
+.footer_end {
   margin-top: calc(100% - 90%);
-} */
+}
 /* .footer_policy {
   margin-top: calc(100% - 90%);
   margin-bottom: calc(100vh - 10vh);
