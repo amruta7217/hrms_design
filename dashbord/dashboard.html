@@ -43,25 +43,24 @@
 
   <body>
     <div class="row" style="background: green; padding: 12px 20px;">
-      <div class="col-md-6 col-lg-6">
+      <div class="col-md-5 col-lg-6 col-5">
         <div class="logo">S U P Y N E</div>
       </div>
-      <div class="col-md-6 col-lg-6">
-        <div class="row">
-          <div class="col-md-6 col-lg-6">
-            <div class="searchbar">
-              <input type="search" class="searchField" placeholder="" />
-              <div class="searchIcon">
-                <i class="fa fa-search" aria-hidden="true"></i>
-              </div>
-            </div>
+      <div class="col-md-4 col-lg-3 col-7">
+        <div class="searchbar">
+          <input type="search" class="searchField" placeholder="" />
+          <div class="searchIcon">
+            <i class="fa fa-search" aria-hidden="true"></i>
           </div>
-          <div class="col-md-2 col-lg-2">
+        </div>
+      </div>
+      <div class="col-12 col-md-3 col-lg-3">
+        <div class="row">
+          <div class="col-2 co-sm-3 col-md-2 col-lg-2">
             <div class="circle"></div>
           </div>
-
-          <div class="col-md-1 col-lg-1">
-            <div class="bellIcon">
+          <div class="col-2 co-sm-3 col-md-2 col-lg-2">
+            <div class="bellIcon ml-md-3">
               <img
                 src="../img/notification.png"
                 alt="logo"
@@ -70,8 +69,8 @@
               />
             </div>
           </div>
-          <div class="col-md-1 col-lg-1">
-            <div class="calenderIcon">
+          <div class="col-2 col-sm-3 col-md-2 col-lg-2">
+            <div class="calenderIcon ml-md-3">
               <img
                 src="../img/calender.png"
                 alt="logo"
@@ -80,46 +79,62 @@
               />
             </div>
           </div>
-          <div class="col-md-2 col-lg-2">
+          <div class="col-2 col-sm-3 col-md-2 col-lg-2">
             <div class="logo">Help</div>
           </div>
         </div>
       </div>
     </div>
 
-    <nav id="navbar-example2" class="navbar navbar-light bg-light">
-      <ul class="nav nav-pills">
-        <li class="nav-item">
-          <a class="nav-link" href="">Dashboard</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="">Employees</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="">Attendance</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="">Leaves</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="">Payroll</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="">Expences</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="">Performance</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="">Visitors</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="">Delights</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="">Dhwani</a>
-        </li>
-      </ul>
+    <nav
+      id="navbar-example2"
+      class="navbar navbar-expand-lg navbar-light bg-light"
+    >
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target=".navbar-collapse"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav text-center">
+          <li class="nav-item">
+            <a class="nav-link" href="">Dashboard</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">Employees</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">Attendance</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">Leaves</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">Payroll</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">Expences</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">Performance</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">Visitors</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">Delights</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">Dhwani</a>
+          </li>
+        </ul>
+      </div>
     </nav>
 
     <div class="my-container">
@@ -414,10 +429,11 @@
             </div>
           </div>
         </div>
-        <div class="text">test</div>
       </div>
     </div>
 
     <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.3.js"></script>
+    <script src="../js/bootstrap.js"></script>
   </body>
 </html>
