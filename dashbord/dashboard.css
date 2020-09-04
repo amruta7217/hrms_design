@@ -74,6 +74,18 @@ body {
   font-size: 11px;
 }
 
+@media only screen and (max-width: 426px) {
+  .my-container {
+    margin: 0 18px 0 18px;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  .employee_margin {
+    margin-top: 10px;
+  }
+}
+
 .employee_container {
   border: 1px solid #fff;
   padding: 10px;
@@ -240,4 +252,14 @@ h1 {
   color: black;
   text-align: center;
   font-size: 12px;
+}
+
+.submenuWidth {
+  width: 0%;
+}
+
+@media only screen and (max-width: 768px) {
+  .submenuWidth {
+    width: 80%;
+  }
 }

@@ -2,7 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
+    />
     <meta
       name="description"
       content="Creative - Bootstrap 3 Responsive Admin Template"
@@ -88,7 +91,7 @@
 
     <nav
       id="navbar-example2"
-      class="navbar navbar-expand-lg navbar-light bg-light"
+      class="navbar navbar-expand-md navbar-light bg-light"
     >
       <button
         class="navbar-toggler"
@@ -101,37 +104,45 @@
       >
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+      <a class="submenuWidth"></a>
+
+      <div
+        class="collapse navbar-collapse justify-content-center"
+        id="navbarSupportedContent"
+      >
         <ul class="navbar-nav text-center">
           <li class="nav-item">
-            <a class="nav-link" href="">Dashboard</a>
+            <a class="nav-link mr-lg-2 mr-xl-2" href="">
+              Dashboard
+            </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="">Employees</a>
+            <a class="nav-link mr-lg-2 mr-xl-2" href="">Employees</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="">Attendance</a>
+            <a class="nav-link mr-lg-2 mr-xl-2" href="">Attendance</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="">Leaves</a>
+            <a class="nav-link mr-lg-2 mr-xl-2" href="">Leaves</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="">Payroll</a>
+            <a class="nav-link mr-lg-2 mr-xl-2" href="">Payroll</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="">Expences</a>
+            <a class="nav-link mr-lg-2 mr-xl-2" href="">Expences</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="">Performance</a>
+            <a class="nav-link mr-lg-2 mr-xl-2" href="">Performance</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="">Visitors</a>
+            <a class="nav-link mr-lg-2 mr-xl-2" href="">Visitors</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="">Delights</a>
+            <a class="nav-link mr-lg-2 mr-xl-2" href="">Delights</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="">Dhwani</a>
+            <a class="nav-link mr-lg-2 mr-xl-2" href="">Dhwani</a>
           </li>
         </ul>
       </div>
@@ -139,30 +150,30 @@
 
     <div class="my-container">
       <div class="row">
-        <div class="col-md-5 col-lg-5">
+        <div class="col-12 col-sm-12 col-md-5 col-lg-5">
           <div class="employee_container" style="color: #fff;">
             <div class="row">
               <div class="col-md-3 col-lg-3">
-                <div class="active_employee_container">
+                <div class="active_employee_container employee_margin">
                   <div class="text-center">Active Employees</div>
 
                   <div class="text-center employee_number">77</div>
                 </div>
               </div>
               <div class="col-md-3 col-lg-3">
-                <div class="male_employee_container">
+                <div class="male_employee_container employee_margin">
                   <div class="text-center">Male Employees</div>
                   <div class="text-center employee_number">77</div>
                 </div>
               </div>
               <div class="col-md-3 col-lg-3">
-                <div class="female_employee_container">
+                <div class="female_employee_container employee_margin">
                   <div class="text-center">Female Employees</div>
                   <div class="text-center employee_number">77</div>
                 </div>
               </div>
               <div class="col-md-3 col-lg-3">
-                <div class="performance_rating_container">
+                <div class="performance_rating_container employee_margin">
                   <div class="text-center">Performance Rating</div>
 
                   <div class="text-center employee_number">77</div>
@@ -178,19 +189,19 @@
                 </div>
               </div>
               <div class="col-md-3 col-lg-3">
-                <div class="resignees_container">
+                <div class="resignees_container employee_margin">
                   <div class="text-center">Resignees</div>
                   <div class="text-center employee_number">77</div>
                 </div>
               </div>
               <div class="col-md-3 col-lg-3">
-                <div class="Attrition_rate_container">
+                <div class="Attrition_rate_container employee_margin">
                   <div class="text-center">Attrition Rate</div>
                   <div class="text-center employee_number">77</div>
                 </div>
               </div>
               <div class="col-md-3 col-lg-3">
-                <div class="open_positions_container">
+                <div class="open_positions_container employee_margin">
                   <div class="text-center">Open Positions</div>
                   <div class="text-center employee_number">77</div>
                 </div>
@@ -434,6 +445,6 @@
 
     <script src="script.js"></script>
     <script src="https://code.jquery.com/jquery-2.1.3.js"></script>
-    <script src="../js/bootstrap.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
   </body>
 </html>
