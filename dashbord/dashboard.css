@@ -86,6 +86,16 @@ body {
   }
 }
 
+.submenu_font {
+  font-size: 18px;
+}
+
+@media screen and (min-device-width: 768px) and (max-device-width: 800px) {
+  .submenu_font {
+    font-size: 13px;
+  }
+}
+
 .employee_container {
   border: 1px solid #fff;
   padding: 10px;
@@ -160,13 +170,7 @@ body {
   height: 120px;
   background-color: #7cbe5f;
 }
-.employee_birthday_container {
-  background-color: #fff;
-  /* height: 200px; */
-  width: 307px;
-  box-shadow: 0px 0px 6px;
-  border-radius: 6px;
-}
+
 .top-left {
   position: absolute;
   top: 10px;
@@ -175,32 +179,13 @@ body {
   font-size: 14px;
   margin-left: 22px;
 }
-/* .birth_circle {
-  width: 30px;
-  height: 30px;
-  background: #7cbe5f;
-  border-radius: 50px;
-  position: absolute;
-  display: flex;
-  right: 32px;
-  top: 8px;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
-} */
 
-.employee_anniversary_container {
-  background-color: #fff;
-  /* height: 200px; */
-  width: 307px;
-  box-shadow: 0px 0px 6px;
-  border-radius: 6px;
-}
 .birth_circle {
   width: 26px;
   height: 26px;
-  background: #7cbe5f;
+  background: #fff;
   border-radius: 50px;
+  background: #7cbe5f;
   position: absolute;
   display: flex;
   right: 32px;
@@ -210,17 +195,16 @@ body {
   color: #fff;
 }
 
-.employee_ToDo_container {
-  background-color: #fff;
-  /* height: 200px; */
-  width: 280px;
-  box-shadow: 0px 0px 6px;
-  border-radius: 6px;
+@media only screen and (max-width: 768px) {
+  .birth_circle {
+    top: 16px;
+  }
 }
+
 .text-block {
   position: absolute;
-  margin-right: 30px;
-  margin-top: -30px;
+  margin-right: 20px;
+  /* margin-top: -30px; */
   right: 20px;
   background-color: white;
   color: black;
@@ -228,14 +212,67 @@ body {
   border-radius: 4px;
 }
 
-.employee_QuickLinks_container {
-  background-color: #fff;
-  /* height: 200px; */
-  width: 325px;
-  box-shadow: 0px 0px 6px;
-  border-radius: 6px;
-  margin-left: -28px;
+.employee_birthday_container {
+  /* background-color: rgb(rig, 58, 58); */
+  background-image: url('../img/Birthdays.png');
+  height: 4rem;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+.employee_anniversary_container {
+  /* background-color: red; */
+  background-image: url('../img/Anniversary.png');
+  height: 4rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.employee_ToDo_container {
+  /* background-color: red; */
+  background-image: url('../img/ToDo.png');
+  height: 4rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.employee_QuickLinks_container {
+  /* background-color: red; */
+  background-image: url('../img/QuickLinks.png');
+  height: 4rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media only screen and (max-width: 768px) {
+  .employee_QuickLinks_container {
+    margin-top: 10px;
+  }
+  .employee_ToDo_container {
+    margin-top: 10px;
+  }
+  .employee_anniversary_container {
+    margin-top: 10px;
+  }
+  .employee_birthday_container {
+    margin-top: 10px;
+  }
+}
+
+.todo_header {
+  font-size: 14px;
+}
+
+@media only screen and (max-width: 320px) {
+  .todo_header {
+    font-size: 10px;
+  }
+}
+
+@media screen and (min-device-width: 321px) and (max-device-width: 375px) {
+  .todo_header {
+    font-size: 12px;
+  }
+}
+
 .top-left_quick {
   position: absolute;
   top: 10px;
@@ -261,5 +298,11 @@ h1 {
 @media only screen and (max-width: 768px) {
   .submenuWidth {
     width: 80%;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .box_padding {
+    padding: 10px;
   }
 }
