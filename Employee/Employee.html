@@ -44,18 +44,22 @@
 
     <!-- <link href="../header/header.html" rel="stylesheet" /> -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
-    <script
+    <!-- <script
       type="text/javascript"
       src="//code.jquery.com/jquery-1.9.1.js"
-    ></script>
+    ></script> -->
   </head>
 
   <body>
     <div id="nav-placeholder"></div>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script>
       $(document).ready(function () {
-        $('#nav-placeholder').load('../header/header.html')
+        alert('run')
+        $('#nav-placeholder').load(
+          'file:///D:/Lieverwa_website/hrms_design/employee/header.html',
+        )
       })
     </script>
     <script src="script.js"></script>
