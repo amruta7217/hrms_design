@@ -2,7 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
+    />
     <meta
       name="description"
       content="Creative - Bootstrap 3 Responsive Admin Template"
@@ -14,10 +17,10 @@
     />
 
     <title>
-      Dashboard
+      Employee
     </title>
 
-    <link href="dashboard1.css" rel="stylesheet" />
+    <link href="employee.css" rel="stylesheet" />
     <!-- Bootstrap CSS -->
     <link href="../css/bootstrap.min.css" rel="stylesheet" />
     <!-- bootstrap theme -->
@@ -35,33 +38,32 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
-    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
     <link href="../css/style.css" rel="stylesheet" />
 
     <link href="../css/style-responsive.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
   </head>
 
   <body>
     <div class="row" style="background: green; padding: 12px 20px;">
-      <div class="col-md-6 col-lg-6">
+      <div class="col-md-5 col-lg-6 col-5">
         <div class="logo">S U P Y N E</div>
       </div>
-      <div class="col-md-6 col-lg-6">
-        <div class="row">
-          <div class="col-md-6 col-lg-6">
-            <div class="searchbar">
-              <input type="search" class="searchField" placeholder="" />
-              <div class="searchIcon">
-                <i class="fa fa-search" aria-hidden="true"></i>
-              </div>
-            </div>
+      <div class="col-md-4 col-lg-3 col-7">
+        <div class="searchbar">
+          <input type="search" class="searchField" placeholder="" />
+          <div class="searchIcon">
+            <i class="fa fa-search" aria-hidden="true"></i>
           </div>
-          <div class="col-md-2 col-lg-2">
+        </div>
+      </div>
+      <div class="col-12 col-md-3 col-lg-3">
+        <div class="row">
+          <div class="col-2 co-sm-3 col-md-2 col-lg-2">
             <div class="circle"></div>
           </div>
-
-          <div class="col-md-1 col-lg-1">
-            <div class="bellIcon">
+          <div class="col-2 co-sm-3 col-md-2 col-lg-2">
+            <div class="bellIcon ml-md-3">
               <img
                 src="../img/notification.png"
                 alt="logo"
@@ -70,8 +72,8 @@
               />
             </div>
           </div>
-          <div class="col-md-1 col-lg-1">
-            <div class="calenderIcon">
+          <div class="col-2 col-sm-3 col-md-2 col-lg-2">
+            <div class="calenderIcon ml-md-3">
               <img
                 src="../img/calender.png"
                 alt="logo"
@@ -80,551 +82,15 @@
               />
             </div>
           </div>
-          <div class="col-md-2 col-lg-2">
+          <div class="col-2 col-sm-3 col-md-2 col-lg-2">
             <div class="logo">Help</div>
           </div>
         </div>
       </div>
     </div>
-    <div>
-      <div class="row">
-        <div class="col-md-2 col-lg-2">
-          <img
-            src="../img/avtar.jpg"
-            alt="logo"
-            width="80"
-            height="80"
-            style="border-radius: 50%; margin-top: 25%; margin-left: 35%;"
-          />
-          <div class="text-center mt-2 ml-4">5 years-10 months-5 days</div>
-          <div>
-            <div class="col-md-2 col-lg-2 mt-2">
-              <i class="fa fa-user" aria-hidden="true"></i>
-            </div>
-            <div class="col-md-10 col-lg-10 mt-2">Employee ID</div>
-          </div>
-          <div>
-            <div class="col-md-2 col-lg-2 mt-2">
-              <i class="fa fa-user" aria-hidden="true"></i>
-            </div>
-            <div class="col-md-10 col-lg-10 mt-2">Landline Phone Extn.</div>
-          </div>
-          <div>
-            <div class="col-md-2 col-lg-2 mt-2">
-              <i class="fa fa-mobile" aria-hidden="true"></i>
-            </div>
-            <div class="col-md-10 col-lg-10 mt-2">Mobile Official</div>
-          </div>
-          <div>
-            <div class="col-md-2 col-lg-2 mt-2">
-              <i class="fa fa-mobile" aria-hidden="true"></i>
-            </div>
-            <div class="col-md-10 col-lg-10 mt-2">Mobile Personal</div>
-          </div>
-          <div>
-            <div class="col-md-2 col-lg-2 mt-2">
-              <i class="fa fa-envelope" aria-hidden="true"></i>
-            </div>
-            <div class="col-md-10 col-lg-10 mt-2">E-mail</div>
-          </div>
-          <hr />
-          <div class="left-side">
-            <h3>Location</h3>
-          </div>
-          <div>City,State,Country</div>
-          <hr />
-          <div class="left-side">
-            <h3>Department</h3>
-          </div>
-          <div>Human Resources</div>
-          <hr />
-          <div class="left-side">
-            <h3>Reporting Manager</h3>
-          </div>
 
-          <div class="col-md-2 col-lg-2 mt-2">
-            <img
-              src="../img/avtar.jpg"
-              alt="logo"
-              width="20"
-              height="20"
-              style="border-radius: 50%;"
-            />
-          </div>
-          <div class="col-md-10 col-lg-10 mt-2">
-            <h3>Mahendra Singh</h3>
-            <h5>General Manager</h5>
-          </div>
-          <div class="left-side">
-            <h3>Social Network</h3>
-          </div>
-          <div class="col-md-2 col-lg-2">
-            <img
-              src="../img/linkedin.png"
-              alt="logo"
-              width="20"
-              height="20"
-              style="border-radius: 50%;"
-            />
-          </div>
-          <div class="col-md-2 col-lg-2">
-            <img
-              src="../img/facebook.png"
-              alt="logo"
-              width="20"
-              height="20"
-              style="border-radius: 50%;"
-            />
-          </div>
-          <div class="col-md-2 col-lg-2">
-            <img
-              src="../img/twitter.png"
-              alt="logo"
-              width="20"
-              height="20"
-              style="border-radius: 50%;"
-            />
-          </div>
-          <div class="col-md-2 col-lg-2">
-            <img
-              src="../img/skype.png"
-              alt="logo"
-              width="20"
-              height="20"
-              style="border-radius: 50%;"
-            />
-          </div>
-          <div class="col-md-2 col-lg-2">
-            <img
-              src="../img/instagram.png"
-              alt="logo"
-              width="20"
-              height="20"
-              style="border-radius: 50%;"
-            />
-          </div>
-        </div>
-
-        <div class="col-md-10 col-lg-10">
-          <div style="margin-top: 5px; margin-left: 5%;">
-            <h3>Robin Harris</h3>
-            <h5>Director</h5>
-          </div>
-          <nav id="navbar-example2" class="navbar navbar-light bg-light">
-            <ul class="nav nav-pills">
-              <li class="nav-item">
-                <a class="nav-link" href="">Dashboard</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="">Employees</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="">Attendance</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="">Leaves</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="">Payroll</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="">Expences</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="">Performance</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="">Visitors</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="">Delights</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="">Dhwani</a>
-              </li>
-            </ul>
-          </nav>
-          <div class="row">
-            <div class="col-md-2 col-lg-2 leave_balance_container">
-              <div class="col-md-6 col-lg-6 mt-4">
-                <img
-                  src="../img/leavebalance.png"
-                  alt="logo"
-                  width="40"
-                  height="40"
-                  style="border-radius: 50%;"
-                />
-              </div>
-              <div class="col-md-6 col-lg-6 mt-4 number">
-                08
-              </div>
-            
-              <div class="col-md-10 col-lg-10 mt-4 ml-2">Leave Balance</div>
-<div class="view_details">
-<div class="col-md-10 col-lg-10">View Details
-<div class="col-md-2 col-lg-2 mt-10 view_arrow">
-  <img
-  src="../img/viewdetails.png"
-  alt="logo"
-  width="30"
-  height="30"
-  style="border-radius: 50%;"
-  
-/>
-</div>
-</div>
-</div>
-
-        
-          </div>
-              <div class="col-md-2 col-lg-2  avg_working">
-                <div class="col-md-6 col-lg-6 mt-4">
-                  <img
-                    src="../img/leavebalance.png"
-                    alt="logo"
-                    width="40"
-                    height="40"
-                    style="border-radius: 50%;"
-                  />
-                </div>
-                <div class="col-md-6 col-lg-6 mt-4 number">
-                  8.7
-                </div>
-              
-                <div class="col-md-10 col-lg-10 mt-4 ml-2">Leave Balance</div>
-  <div class="view_details">
-  <div class="col-md-10 col-lg-10">View Details
-  <div class="col-md-2 col-lg-2 mt-10 view_arrow">
-    <img
-    src="../img/viewdetails.png"
-    alt="logo"
-    width="30"
-    height="30"
-    style="border-radius: 50%;"
-    
-  />
-  </div>
-  </div>
-  </div>  
-              </div>
-            
-              <div class="col-md-2 col-lg-2 open_positions">
-                <div class="col-md-6 col-lg-6 mt-4">
-                  <img
-                    src="../img/leavebalance.png"
-                    alt="logo"
-                    width="40"
-                    height="40"
-                    style="border-radius: 50%;"
-                  />
-                </div>
-                <div class="col-md-6 col-lg-6 mt-4 number">
-                  8.7
-                </div>
-              
-                <div class="col-md-10 col-lg-10 mt-4 ml-2">Leave Balance</div>
-  <div class="view_details">
-  <div class="col-md-10 col-lg-10">View Details
-  <div class="col-md-2 col-lg-2 mt-10 view_arrow">
-    <img
-    src="../img/viewdetails.png"
-    alt="logo"
-    width="30"
-    height="30"
-    style="border-radius: 50%;"
-    
-  />
-  </div>
-  </div>
-  </div>  
-              </div>
-              
-                <div class="col-md-2 col-lg-2 performance_rating">
-                  <div class="col-md-6 col-lg-6 mt-4">
-                    <img
-                      src="../img/leavebalance.png"
-                      alt="logo"
-                      width="40"
-                      height="40"
-                      style="border-radius: 50%;"
-                    />
-                  </div>
-                  <div class="col-md-6 col-lg-6 mt-4 number">
-                    8.7
-                  </div>
-                
-                  <div class="col-md-10 col-lg-10 mt-4 ml-2">Leave Balance</div>
-    <div class="view_details">
-    <div class="col-md-10 col-lg-10">View Details
-    <div class="col-md-2 col-lg-2 mt-10 view_arrow">
-      <img
-      src="../img/viewdetails.png"
-      alt="logo"
-      width="30"
-      height="30"
-      style="border-radius: 50%;"
-      
-    />
-    </div>
-    </div>
-    </div>  
-                
-              </div>
-              <div class="col-md-2 col-lg-2 Irregularities">
-                <div class="col-md-6 col-lg-6 mt-4">
-                  <img
-                    src="../img/leavebalance.png"
-                    alt="logo"
-                    width="40"
-                    height="40"
-                    style="border-radius: 50%;"
-                  />
-                </div>
-                <div class="col-md-6 col-lg-6 mt-4 number">
-                  8.7
-                </div>
-              
-                <div class="col-md-10 col-lg-10 mt-4 ml-2">Irregularities</div>
-  <div class="view_details">
-  <div class="col-md-10 col-lg-10">View Details
-  <div class="col-md-2 col-lg-2 mt-10 view_arrow">
-    <img
-    src="../img/viewdetails.png"
-    alt="logo"
-    width="30"
-    height="30"
-    style="border-radius: 50%;"
-    
-  />
-  </div>
-  </div>
-  </div>  
-              
-              </div>
-              <div class="col-md-2 col-lg-2 Visitors">
-                <div class="col-md-6 col-lg-6 mt-4">
-                  <img
-                    src="../img/leavebalance.png"
-                    alt="logo"
-                    width="40"
-                    height="40"
-                    style="border-radius: 50%;"
-                  />
-                </div>
-                <div class="col-md-6 col-lg-6 mt-4 number">
-                  8.7
-                </div>
-              
-                <div class="col-md-10 col-lg-10 mt-4 ml-2">Visitors</div>
-  <div class="view_details">
-  <div class="col-md-10 col-lg-10">View Details
-  <div class="col-md-2 col-lg-2 mt-10 view_arrow">
-    <img
-    src="../img/viewdetails.png"
-    alt="logo"
-    width="30"
-    height="30"
-    style="border-radius: 50%;"
-    
-  />
-  </div>
-  </div>
-  </div>  
-              
-              </div>
-            </div>
-          
-      
-      <div class="row mt-5 mb-3">
-        <div class="col-md-3 col-lg-3">
-          <div class="employee_birthday_container">
-          
-              <img
-              src="../img/Birthdays.png"
-              alt="logo"
-              style="position: relative;width: 265px;"
-            />
-          
-            <div class="top-left">Birthday's</div>
-            <div class="birth_circle">06</div>
-            <div class="p-5">
-              <div class="row">
-                <div class="col-lg-4 col-lg-4">
-                  <img
-                    src="../img/avtar.jpg"
-                    alt="logo"
-                    width="60"
-                    height="60"
-                    style="border-radius: 50%;"
-                  />
-                  <div class="text-center mt-2">John</div>
-                </div>
-                <div class="col-lg-4 col-lg-4">
-                  <img
-                    src="../img/avtar.jpg"
-                    alt="logo"
-                    width="60"
-                    height="60"
-                    style="border-radius: 50%;"
-                  />
-                  <div class="text-center mt-2">John</div>
-                </div>
-                <div class="col-lg-4 col-lg-4">
-                  <img
-                    src="../img/avtar.jpg"
-                    alt="logo"
-                    width="60"
-                    height="60"
-                    style="border-radius: 50%;"
-                  />
-                  <div class="text-center mt-2">John</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 col-lg-3">
-          <div class="employee_anniversary_container">
-            <img src="../img/Anniversary.png" alt="logo"  style="width: 265px"/>
-            <div class="top-left">Anniversary</div>
-            <div class="birth_circle">07</div>
-            <div class="p-5">
-              <div class="row">
-                <div class="col-lg-4 col-lg-4">
-                  <img
-                    src="../img/avtar.jpg"
-                    alt="logo"
-                    width="60"
-                    height="60"
-                    style="border-radius: 50%;"
-                  />
-                  <div class="text-center mt-2">John</div>
-                </div>
-                <div class="col-lg-4 col-lg-4">
-                  <img
-                    src="../img/avtar.jpg"
-                    alt="logo"
-                    width="60"
-                    height="60"
-                    style="border-radius: 50%;"
-                  />
-                  <div class="text-center mt-2">John</div>
-                </div>
-                <div class="col-lg-4 col-lg-4">
-                  <img
-                    src="../img/avtar.jpg"
-                    alt="logo"
-                    width="60"
-                    height="60"
-                    style="border-radius: 50%;"
-                  />
-                  <div class="text-center mt-2">John</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 col-lg-3">
-          <div class="employee_ToDo_container">
-            <img src="../img/ToDo.png" alt="logo" style="width: 250px" />
-            <div class="top-left">ToDo List</div>
-            <div class="text-block">
-              <div>ADD</div>
-            </div>
-            <div class="p-4">
-              <h4>Event</h4>
-              <div class="row">
-                <div class="col-md-9 col-lg-9">
-                  <p>Arrangement of weekend activity</p>
-                </div>
-                <div class="col-md-1 col-lg-1">
-                  <img src="../img/edit.png" width="10" height="10" />
-                </div>
-                <div class="col-md-1 col-lg-1">
-                  <img src="../img/close.png" width="10" height="10" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-3 col-lg-3">
-          <div class="employee_QuickLinks_container">
-            <img src="../img/QuickLinks.png" alt="logo" style="width: 265px" />
-            <div class="top-left_quick">Quick Links</div>
-            <div class="p-5">
-              <div class="row">
-                <div class="col-lg-4 col-lg-4">
-                  <img
-                    src="../img/CompanyPolicy.png"
-                    alt="logo"
-                    width="60"
-                    height="60"
-                    style="border-radius: 50%;"
-                  />
-                  <div class="text-center mt-2">Company Policies</div>
-                </div>
-                <div class="col-lg-4 col-lg-4">
-                  <img
-                    src="../img/Organizationchart.png"
-                    alt="logo"
-                    width="60"
-                    height="60"
-                    style="border-radius: 50%;"
-                  />
-                  <div class="text-center mt-2">Organization Chart</div>
-                </div>
-                <div class="col-lg-4 col-lg-4">
-                  <img
-                    src="../img/holiday.png"
-                    alt="logo"
-                    width="60"
-                    height="60"
-                    style="border-radius: 50%;"
-                  />
-                  <div class="text-center mt-2">Holiday Calender</div>
-                </div>
-              </div>
-              <div class="row mt-3">
-                <div class="col-lg-4 col-lg-4">
-                  <img
-                    src="../img/poll.png"
-                    alt="logo"
-                    width="60"
-                    height="60"
-                    style="border-radius: 50%;"
-                  />
-                  <div class="text-center mt-2">Polls</div>
-                </div>
-                <div class="col-lg-4 col-lg-4">
-                  <img
-                    src="../img/request.png"
-                    alt="logo"
-                    width="60"
-                    height="60"
-                    style="border-radius: 50%;"
-                  />
-                  <div class="text-center mt-2">Requests</div>
-                </div>
-                <div class="col-lg-4 col-lg-4">
-                  <img
-                    src="../img/report.png"
-                    alt="logo"
-                    width="60"
-                    height="60"
-                    style="border-radius: 50%;"
-                  />
-                  <div class="text-center mt-2">Reports</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.3.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
   </body>
 </html>
