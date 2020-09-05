@@ -41,56 +41,23 @@
     <link href="../css/style.css" rel="stylesheet" />
 
     <link href="../css/style-responsive.css" rel="stylesheet" />
+
+    <!-- <link href="../header/header.html" rel="stylesheet" /> -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-1.9.1.js"
+    ></script>
   </head>
 
   <body>
-    <div class="row" style="background: green; padding: 12px 20px;">
-      <div class="col-md-5 col-lg-6 col-5">
-        <div class="logo">S U P Y N E</div>
-      </div>
-      <div class="col-md-4 col-lg-3 col-7">
-        <div class="searchbar">
-          <input type="search" class="searchField" placeholder="" />
-          <div class="searchIcon">
-            <i class="fa fa-search" aria-hidden="true"></i>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-md-3 col-lg-3">
-        <div class="row">
-          <div class="col-2 co-sm-3 col-md-2 col-lg-2">
-            <div class="circle"></div>
-          </div>
-          <div class="col-2 co-sm-3 col-md-2 col-lg-2">
-            <div class="bellIcon ml-md-3">
-              <img
-                src="../img/notification.png"
-                alt="logo"
-                width="20"
-                height="20"
-              />
-            </div>
-          </div>
-          <div class="col-2 col-sm-3 col-md-2 col-lg-2">
-            <div class="calenderIcon ml-md-3">
-              <img
-                src="../img/calender.png"
-                alt="logo"
-                width="20"
-                height="20"
-              />
-            </div>
-          </div>
-          <div class="col-2 col-sm-3 col-md-2 col-lg-2">
-            <div class="logo">Help</div>
-          </div>
-        </div>
-      </div>
-    </div>
+    <div id="nav-placeholder"></div>
 
+    <script>
+      $(document).ready(function () {
+        $('#nav-placeholder').load('../header/header.html')
+      })
+    </script>
     <script src="script.js"></script>
-    <script src="https://code.jquery.com/jquery-2.1.3.js"></script>
-    <script src="../js/bootstrap.min.js"></script>
   </body>
 </html>

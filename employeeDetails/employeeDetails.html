@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
+    />
+    <meta
+      name="description"
+      content="Creative - Bootstrap 3 Responsive Admin Template"
+    />
+    <meta name="author" content="GeeksLabs" />
+    <meta
+      name="keyword"
+      content="Creative, Dashboard, Admin, Template, Theme, Bootstrap, Responsive, Retina, Minimal"
+    />
+
+    <title>
+      Employee
+    </title>
+
+    <link href="employeeDetails.css" rel="stylesheet" />
+    <!-- Bootstrap CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet" />
+    <!-- bootstrap theme -->
+    <link href="../css/bootstrap-theme.css" rel="stylesheet" />
+    <!--external css-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+    />
+    <!--chart theme-->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link href="../css/style.css" rel="stylesheet" />
+
+    <link href="../css/style-responsive.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+  </head>
+
+  <body>
+    <div class="row" style="background: green; padding: 12px 20px;">
+      <div class="col-md-5 col-lg-6 col-5">
+        <div class="logo">S U P Y N E</div>
+      </div>
+      <div class="col-md-4 col-lg-3 col-7">
+        <div class="searchbar">
+          <input type="search" class="searchField" placeholder="" />
+          <div class="searchIcon">
+            <i class="fa fa-search" aria-hidden="true"></i>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-3 col-lg-3">
+        <div class="row">
+          <div class="col-2 co-sm-3 col-md-2 col-lg-2">
+            <div class="circle"></div>
+          </div>
+          <div class="col-2 co-sm-3 col-md-2 col-lg-2">
+            <div class="bellIcon ml-md-3">
+              <img
+                src="../img/notification.png"
+                alt="logo"
+                width="20"
+                height="20"
+              />
+            </div>
+          </div>
+          <div class="col-2 col-sm-3 col-md-2 col-lg-2">
+            <div class="calenderIcon ml-md-3">
+              <img
+                src="../img/calender.png"
+                alt="logo"
+                width="20"
+                height="20"
+              />
+            </div>
+          </div>
+          <div class="col-2 col-sm-3 col-md-2 col-lg-2">
+            <div class="logo">Help</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <nav
+      id="navbar-example2"
+      class="navbar navbar-expand-md navbar-light bg-light"
+    >
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target=".navbar-collapse"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <a class="submenuWidth"></a>
+
+      <div
+        class="collapse navbar-collapse justify-content-lg-center"
+        id="navbarSupportedContent"
+      >
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link mr-lg-2 mr-xl-2 submenu_font" href="">
+              Dashboard
+            </a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link mr-lg-2 mr-xl-2 submenu_font"
+              href="../employee/employee.html"
+            >
+              Employees
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mr-lg-2 mr-xl-2 submenu_font" href="">
+              Attendance
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mr-lg-2 mr-xl-2 submenu_font" href="">Leaves</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mr-lg-2 mr-xl-2 submenu_font" href="">Payroll</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mr-lg-2 mr-xl-2 submenu_font" href="">
+              Expences
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mr-lg-2 mr-xl-2 submenu_font" href="">
+              Performance
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mr-lg-2 mr-xl-2 submenu_font" href="">
+              Visitors
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mr-lg-2 mr-xl-2 submenu_font" href="">
+              Delights
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mr-lg-2 mr-xl-2 submenu_font" href="">Dhwani</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="row pl-4 pr-4">
+      <div class="col-12 col-sm-6 col-md-3 col-lg-2">
+        <div class="search_container text-center">
+          <img
+            src="../img/employees/search.svg"
+            alt="searc"
+            width="60"
+            height="60"
+            class="mt-4"
+          />
+          <div class="mt-4 font-weight-bold">Search</div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-3 col-lg-2">
+        <div class="search_container text-center">
+          <img
+            src="../img/employees/addemployee.svg"
+            alt="searc"
+            width="60"
+            height="60"
+            class="mt-4"
+          />
+          <div class="mt-4 font-weight-bold">Add Employee</div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-3 col-lg-2">
+        <div class="search_container text-center">
+          <img
+            src="../img/employees/editemployee.svg"
+            alt="searc"
+            width="60"
+            height="60"
+            class="mt-4"
+          />
+          <div class="mt-4 font-weight-bold">Edit Employee</div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-3 col-lg-2">
+        <div class="search_container text-center">
+          <img
+            src="../img/employees/bulk-upload.svg"
+            alt="searc"
+            width="60"
+            height="60"
+            class="mt-4"
+          />
+          <div class="mt-4 font-weight-bold">Bulk Upload</div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-3 col-lg-2">
+        <div class="search_container text-center">
+          <img
+            src="../img/employees/poll.svg"
+            alt="searc"
+            width="60"
+            height="60"
+            class="mt-4"
+          />
+          <div class="mt-4 font-weight-bold">Create a Poll</div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-3 col-lg-2">
+        <div class="search_container text-center">
+          <img
+            src="../img/employees/form.svg"
+            alt="searc"
+            width="60"
+            height="60"
+            class="mt-4"
+          />
+          <div class="mt-4 font-weight-bold">Forms</div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-3 col-lg-2">
+        <div class="search_container text-center">
+          <img
+            src="../img/employees/issue letter.svg"
+            alt="searc"
+            width="60"
+            height="60"
+            class="mt-4"
+          />
+          <div class="mt-4 font-weight-bold">Issue Latter</div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-3 col-lg-2">
+        <div class="search_container text-center">
+          <img
+            src="../img/employees/issue letter.svg"
+            alt="searc"
+            width="60"
+            height="60"
+            class="mt-4"
+          />
+          <div class="mt-4 font-weight-bold">Post a Requirement</div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-3 col-lg-2">
+        <div class="search_container text-center">
+          <img
+            src="../img/employees/writeapost.svg"
+            alt="searc"
+            width="60"
+            height="60"
+            class="mt-4"
+          />
+          <div class="mt-4 font-weight-bold">Write a Post</div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-3 col-lg-2">
+        <div class="search_container text-center">
+          <img
+            src="../img/employees/activate.svg"
+            alt="searc"
+            width="60"
+            height="60"
+            class="mt-2"
+          />
+          <div class="mt-4 font-weight-bold">Activate/Deactivate Employee</div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-3 col-lg-2">
+        <div class="search_container text-center">
+          <img
+            src="../img/employees/clock.png"
+            alt="searc"
+            width="60"
+            height="60"
+            class="mt-4"
+          />
+          <div class="mt-4 font-weight-bold">Reminders</div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-3 col-lg-2">
+        <div class="search_container text-center">
+          <img
+            src="../img/employees/policy.svg"
+            alt="searc"
+            width="60"
+            height="60"
+            class="mt-4"
+          />
+          <div class="mt-4 font-weight-bold">Company Policies</div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-3 col-lg-2">
+        <div class="search_container text-center">
+          <img
+            src="../img/employees/onboarding.svg"
+            alt="searc"
+            width="60"
+            height="60"
+            class="mt-4"
+          />
+          <div class="mt-4 font-weight-bold">Onboarding</div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-3 col-lg-2">
+        <div class="search_container text-center">
+          <img
+            src="../img/employees/changereportingmanager.svg"
+            alt="searc"
+            width="60"
+            height="60"
+            class="mt-2"
+          />
+          <div class="mt-4 font-weight-bold">Change Reporting Manager</div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-3 col-lg-2">
+        <div class="search_container text-center">
+          <img
+            src="../img/employees/assets.svg"
+            alt="searc"
+            width="60"
+            height="60"
+            class="mt-2"
+          />
+          <div class="mt-4 font-weight-bold">View/Manage Employee Assets</div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-3 col-lg-2">
+        <div class="search_container text-center">
+          <img
+            src="../img/employees/openposition.svg"
+            alt="searc"
+            width="60"
+            height="60"
+            class="mt-4"
+          />
+          <div class="mt-4 font-weight-bold">Open Positions</div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-3 col-lg-2">
+        <div class="search_container text-center">
+          <img
+            src="../img/employees/editposition.svg"
+            alt="searc"
+            width="60"
+            height="60"
+            class="mt-4"
+          />
+          <div class="mt-4 font-weight-bold">e-separation</div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-3 col-lg-2">
+        <div class="search_container text-center">
+          <img
+            src="../img/employees/confirmprobationemployee.svg"
+            alt="searc"
+            width="60"
+            height="60"
+            class="mt-2"
+          />
+          <div class="mt-4 font-weight-bold">Confirm Probation Employee</div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-3 col-lg-2">
+        <div class="search_container text-center">
+          <img
+            src="../img/employees/organization-chart.svg"
+            alt="searc"
+            width="60"
+            height="60"
+            class="mt-4"
+          />
+          <div class="mt-4 font-weight-bold">Organization Chart</div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-3 col-lg-2">
+        <div class="search_container text-center">
+          <img
+            src="../img/employees/groupemail.svg"
+            alt="searc"
+            width="60"
+            height="60"
+            class="mt-4"
+          />
+          <div class="mt-4 font-weight-bold">Group E-mail</div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-3 col-lg-2">
+        <div class="search_container text-center">
+          <img
+            src="../img/employees/documents.svg"
+            alt="searc"
+            width="60"
+            height="60"
+            class="mt-4"
+          />
+          <div class="mt-4 font-weight-bold">Documents</div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-3 col-lg-2">
+        <div class="search_container text-center">
+          <img
+            src="../img/employees/request.svg"
+            alt="searc"
+            width="60"
+            height="60"
+            class="mt-4"
+          />
+          <div class="mt-4 font-weight-bold">Requests</div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-3 col-lg-2">
+        <div class="search_container text-center">
+          <img
+            src="../img/employees/reports.svg"
+            alt="searc"
+            width="60"
+            height="60"
+            class="mt-4"
+          />
+          <div class="mt-4 font-weight-bold">Reports</div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-3 col-lg-2">
+        <div class="search_container text-center">
+          <img
+            src="../img/employees/configure.svg"
+            alt="searc"
+            width="60"
+            height="60"
+            class="mt-4"
+          />
+          <div class="mt-4 font-weight-bold">Configure</div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-2.1.3.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+  </body>
+</html>
