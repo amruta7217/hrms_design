@@ -8,8 +8,6 @@ body {
   background-color: #7cbe5f;
 }
 .logo {
-  /* float: left;
-  width: 15%; */
   color: white;
   padding: 8px 8px;
 }
@@ -36,21 +34,6 @@ body {
   margin-top: 6px;
 }
 
-nav ul {
-  margin-right: 40px;
-  margin-left: 40px;
-}
-nav ul li {
-  display: inline-block;
-}
-nav ul li a {
-  color: Black;
-  line-height: 30px;
-  font-size: 16px;
-
-  transition: 0.5s;
-}
-
 .search-Box {
   margin-right: 50px;
 }
@@ -64,28 +47,6 @@ nav ul li a {
   color: white;
 }
 
-body {
-  margin: 30px;
-}
-
-.my-container {
-  margin: 0 40px 0 40px;
-  /* color: #fff; */
-  font-size: 11px;
-}
-
-@media only screen and (max-width: 426px) {
-  .my-container {
-    margin: 0 18px 0 18px;
-  }
-}
-
-@media only screen and (max-width: 426px) {
-  .employee_margin {
-    margin-top: 10px;
-  }
-}
-
 .submenu_font {
   font-size: 18px;
 }
@@ -96,215 +57,16 @@ body {
   }
 }
 
-.employee_container {
-  border: 1px solid #fff;
+/* employee detsils css */
+
+.search_container {
+  background: #f1f1f1;
+  border: 1px solid #f1f1f1;
   padding: 10px;
-  box-shadow: 0px 0px 6px #e5e5e5;
+  box-shadow: 0px 0px 6px #f1f1f1;
   border-radius: 6px;
-}
-.employee_number {
-  font-size: 34px;
-  margin-top: 18px;
-}
-.active_employee_container {
-  border: 1px solid #0076f2;
-  padding: 10px;
-  box-shadow: 0px 0px 6px #e5e5e5;
-  border-radius: 6px;
-  height: 120px;
-  background-color: #0076f2;
-}
-.male_employee_container {
-  border: 1px solid #00b3fe;
-  padding: 10px;
-  box-shadow: 0px 0px 6px #e5e5e5;
-  border-radius: 6px;
-  height: 120px;
-  background-color: #00b3fe;
-}
-.female_employee_container {
-  border: 1px solid #8a42fe;
-  padding: 10px;
-  box-shadow: 0px 0px 6px #e5e5e5;
-  border-radius: 6px;
-  height: 120px;
-  background-color: #8a42fe;
-}
-.performance_rating_container {
-  border: 1px solid #f5874f;
-  padding: 10px;
-  box-shadow: 0px 0px 6px #e5e5e5;
-  border-radius: 6px;
-  height: 120px;
-  background-color: #f5874f;
-}
-.new_joinees_container {
-  border: 1px solid #ff5792;
-  padding: 10px;
-  box-shadow: 0px 0px 6px #e5e5e5;
-  border-radius: 6px;
-  height: 120px;
-  background-color: #ff5792;
-}
-.resignees_container {
-  border: 1px solid #ff4048;
-  padding: 10px;
-  box-shadow: 0px 0px 6px #e5e5e5;
-  border-radius: 6px;
-  height: 120px;
-  background-color: #ff4048;
-}
-.Attrition_rate_container {
-  border: 1px solid #107bff;
-  padding: 10px;
-  box-shadow: 0px 0px 6px #e5e5e5;
-  border-radius: 6px;
-  height: 120px;
-  background-color: #107bff;
-}
-.open_positions_container {
-  border: 1px solid #7cbe5f;
-  padding: 10px;
-  box-shadow: 0px 0px 6px #e5e5e5;
-  border-radius: 6px;
-  height: 120px;
-  background-color: #7cbe5f;
-}
-
-.top-left {
-  position: absolute;
-  top: 10px;
-  left: 16px;
-  color: white;
-  font-size: 14px;
-  margin-left: 22px;
-}
-
-.birth_circle {
-  width: 26px;
-  height: 26px;
-  background: #fff;
-  border-radius: 50px;
-  background: #7cbe5f;
-  position: absolute;
-  display: flex;
-  right: 32px;
-  top: 8px;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
-}
-
-@media only screen and (max-width: 768px) {
-  .birth_circle {
-    top: 16px;
-  }
-}
-
-.text-block {
-  position: absolute;
-  margin-right: 20px;
-  /* margin-top: -30px; */
-  right: 20px;
-  background-color: white;
-  color: black;
-  padding: 1px 4px;
-  border-radius: 4px;
-}
-
-.employee_birthday_container {
-  /* background-color: rgb(rig, 58, 58); */
-  background-image: url('../img/Birthdays.png');
-  height: 4rem;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.employee_anniversary_container {
-  /* background-color: red; */
-  background-image: url('../img/Anniversary.png');
-  height: 4rem;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.employee_ToDo_container {
-  /* background-color: red; */
-  background-image: url('../img/ToDo.png');
-  height: 4rem;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.employee_QuickLinks_container {
-  /* background-color: red; */
-  background-image: url('../img/QuickLinks.png');
-  height: 4rem;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-@media only screen and (max-width: 768px) {
-  .employee_QuickLinks_container {
-    margin-top: 10px;
-  }
-  .employee_ToDo_container {
-    margin-top: 10px;
-  }
-  .employee_anniversary_container {
-    margin-top: 10px;
-  }
-  .employee_birthday_container {
-    margin-top: 10px;
-  }
-}
-
-.todo_header {
-  font-size: 14px;
-}
-
-@media only screen and (max-width: 320px) {
-  .todo_header {
-    font-size: 10px;
-  }
-}
-
-@media screen and (min-device-width: 321px) and (max-device-width: 375px) {
-  .todo_header {
-    font-size: 12px;
-  }
-}
-
-.top-left_quick {
-  position: absolute;
-  top: 10px;
-  left: 16px;
-  color: white;
-  font-size: 14px;
-  margin-left: -9px;
-}
-h1 {
-  text-align: right;
-  margin-bottom: 5px;
-}
-.emptext {
-  color: black;
-  text-align: center;
-  font-size: 12px;
-}
-
-.submenuWidth {
-  width: 0%;
-}
-
-@media only screen and (max-width: 768px) {
-  .submenuWidth {
-    width: 80%;
-  }
-}
-
-@media only screen and (max-width: 425px) {
-  .box_padding {
-    padding: 10px;
-  }
+  height: 14rem;
+  margin: 10px;
 }
 
 /* employee css */
