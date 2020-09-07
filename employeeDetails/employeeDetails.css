@@ -68,3 +68,211 @@ body {
   height: 14rem;
   margin: 10px;
 }
+
+.addemp_container {
+  background: #f2eeee;
+  border: 1px solid #f1f1f1;
+  padding: 10px;
+  box-shadow: 0px 0px 6px #f1f1f1;
+  border-radius: 6px;
+  height: 14rem;
+  margin: 10px;
+}
+.editemp_container {
+  background: #f5f3dd;
+  border: 1px solid #f1f1f1;
+  padding: 10px;
+  box-shadow: 0px 0px 6px #f1f1f1;
+  border-radius: 6px;
+  height: 14rem;
+  margin: 10px;
+}
+.bulk_container {
+  background: #f1fff1;
+  border: 1px solid #f1f1f1;
+  padding: 10px;
+  box-shadow: 0px 0px 6px #f1f1f1;
+  border-radius: 6px;
+  height: 14rem;
+  margin: 10px;
+}
+.poll_container {
+  background: rgba(207, 255, 255, 0.35);
+  border: 1px solid #f1f1f1;
+  padding: 10px;
+  box-shadow: 0px 0px 6px #f1f1f1;
+  border-radius: 6px;
+  height: 14rem;
+  margin: 10px;
+}
+.forms_container {
+  background: #f8f9fb;
+  border: 1px solid #f1f1f1;
+  padding: 10px;
+  box-shadow: 0px 0px 6px #f1f1f1;
+  border-radius: 6px;
+  height: 14rem;
+  margin: 10px;
+}
+.issue_container {
+  background: #fcfcd7;
+  border: 1px solid #f1f1f1;
+  padding: 10px;
+  box-shadow: 0px 0px 6px #f1f1f1;
+  border-radius: 6px;
+  height: 14rem;
+  margin: 10px;
+}
+.post_container {
+  background: #ffe8ee;
+  border: 1px solid #f1f1f1;
+  padding: 10px;
+  box-shadow: 0px 0px 6px #f1f1f1;
+  border-radius: 6px;
+  height: 14rem;
+  margin: 10px;
+}
+.writepost_container {
+  background: #ffe8ee;
+  border: 1px solid #f1f1f1;
+  padding: 10px;
+  box-shadow: 0px 0px 6px #f1f1f1;
+  border-radius: 6px;
+  height: 14rem;
+  margin: 10px;
+}
+.activate_container {
+  background: #f6eee1;
+  border: 1px solid #f1f1f1;
+  padding: 10px;
+  box-shadow: 0px 0px 6px #f1f1f1;
+  border-radius: 6px;
+  height: 14rem;
+  margin: 10px;
+}
+.reminder_container {
+  background: #f2e5d5;
+  border: 1px solid #f1f1f1;
+  padding: 10px;
+  box-shadow: 0px 0px 6px #f1f1f1;
+  border-radius: 6px;
+  height: 14rem;
+  margin: 10px;
+}
+.compolicy_container {
+  background: #b6bafc;
+  border: 1px solid #f1f1f1;
+  padding: 10px;
+  box-shadow: 0px 0px 6px #f1f1f1;
+  border-radius: 6px;
+  height: 14rem;
+  margin: 10px;
+}
+.onboarding_container {
+  background: #fbf3ec;
+  border: 1px solid #f1f1f1;
+  padding: 10px;
+  box-shadow: 0px 0px 6px #f1f1f1;
+  border-radius: 6px;
+  height: 14rem;
+  margin: 10px;
+}
+.chnageRepo_container {
+  background: #ffd9d1;
+  border: 1px solid #f1f1f1;
+  padding: 10px;
+  box-shadow: 0px 0px 6px #f1f1f1;
+  border-radius: 6px;
+  height: 14rem;
+  margin: 10px;
+}
+.viewmanager_container {
+  background: #e9e8ff;
+  border: 1px solid #f1f1f1;
+  padding: 10px;
+  box-shadow: 0px 0px 6px #f1f1f1;
+  border-radius: 6px;
+  height: 14rem;
+  margin: 10px;
+}
+.openposition_container {
+  background: #c9d0e9;
+  border: 1px solid #f1f1f1;
+  padding: 10px;
+  box-shadow: 0px 0px 6px #f1f1f1;
+  border-radius: 6px;
+  height: 14rem;
+  margin: 10px;
+}
+.eseperation_container {
+  background: #fffdf6;
+  border: 1px solid #f1f1f1;
+  padding: 10px;
+  box-shadow: 0px 0px 6px #f1f1f1;
+  border-radius: 6px;
+  height: 14rem;
+  margin: 10px;
+}
+.confirmprobation_container {
+  background: #d3e3d3;
+  border: 1px solid #f1f1f1;
+  padding: 10px;
+  box-shadow: 0px 0px 6px #f1f1f1;
+  border-radius: 6px;
+  height: 14rem;
+  margin: 10px;
+}
+.organization_container {
+  background: #fff2ce;
+  border: 1px solid #f1f1f1;
+  padding: 10px;
+  box-shadow: 0px 0px 6px #f1f1f1;
+  border-radius: 6px;
+  height: 14rem;
+  margin: 10px;
+}
+.groupemail_container {
+  background: #f8f9fb;
+  border: 1px solid #f1f1f1;
+  padding: 10px;
+  box-shadow: 0px 0px 6px #f1f1f1;
+  border-radius: 6px;
+  height: 14rem;
+  margin: 10px;
+}
+.document_container {
+  background: #face9b;
+  border: 1px solid #f1f1f1;
+  padding: 10px;
+  box-shadow: 0px 0px 6px #f1f1f1;
+  border-radius: 6px;
+  height: 14rem;
+  margin: 10px;
+}
+.request_container {
+  background: #d9ebeb;
+  border: 1px solid #f1f1f1;
+  padding: 10px;
+  box-shadow: 0px 0px 6px #f1f1f1;
+  border-radius: 6px;
+  height: 14rem;
+  margin: 10px;
+}
+.report_container {
+  background: #e1e1e1;
+  border: 1px solid #f1f1f1;
+  padding: 10px;
+  box-shadow: 0px 0px 6px #f1f1f1;
+  border-radius: 6px;
+  height: 14rem;
+  margin: 10px;
+}
+.configure_container {
+  background: #e1e7ef;
+  border: 1px solid #f1f1f1;
+  padding: 10px;
+  box-shadow: 0px 0px 6px #f1f1f1;
+  border-radius: 6px;
+  height: 14rem;
+  margin: 10px;
+}

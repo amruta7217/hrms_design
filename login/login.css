@@ -12,11 +12,11 @@
 }
 
 .login_image {
-  height: 56rem;
+  height: 60rem;
 }
 @media only screen and (max-width: 1440px) and (min-width: 1024px) {
   .login_image {
-    height: 46rem;
+    height: 50rem;
   }
 }
 
@@ -28,7 +28,7 @@
 .login_logo {
   display: flex;
   justify-content: center;
-  padding-top: calc(100% - 64%);
+  padding-top: calc(100% - 68%);
 }
 
 .login_input {
@@ -72,11 +72,11 @@
 }
 
 .footer_end {
-  margin-top: calc(100% - 90%);
+  margin-top: calc(100% - 80%);
 }
 .footer_policy {
   text-align: right;
-  margin-top: calc(100% - 107%);
+  margin-top: calc(100% - 103%);
 }
 
 @media only screen and (max-width: 768px) {
