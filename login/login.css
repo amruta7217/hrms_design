@@ -12,7 +12,7 @@
 }
 
 .login_image {
-  height: 50rem;
+  height: 56rem;
 }
 @media only screen and (max-width: 1440px) and (min-width: 1024px) {
   .login_image {
@@ -28,7 +28,7 @@
 .login_logo {
   display: flex;
   justify-content: center;
-  padding-top: calc(100% - 60%);
+  padding-top: calc(100% - 64%);
 }
 
 .login_input {
@@ -60,14 +60,33 @@
 }
 
 .btn_custom {
-  background: rgb(124, 190, 95);
+  background: #2a4999;
   color: #fff;
+  width: 26%;
+}
+
+@media only screen and (max-width: 425px) {
+  .btn_custom {
+    width: 40%;
+  }
 }
 
 .footer_end {
   margin-top: calc(100% - 90%);
 }
-/* .footer_policy {
-  margin-top: calc(100% - 90%);
-  margin-bottom: calc(100vh - 10vh);
-} */
+.footer_policy {
+  text-align: right;
+  margin-top: calc(100% - 107%);
+}
+
+@media only screen and (max-width: 768px) {
+  .footer_policy {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  .footer_display_mobile {
+    display: none;
+  }
+}
