@@ -76,3 +76,16 @@ body {
   position: relative;
   height: 6rem;
 }
+
+@media only screen and (max-width: 426px) {
+  .employee_details {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-device-width: 768px) and (max-device-width: 800px) {
+  .employee_details_header {
+    font-size: 13px;
+  }
+}
