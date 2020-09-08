@@ -19,7 +19,7 @@ body {
   height: 35px;
   padding: 15px;
   border-radius: 10px;
-  border: 1px solid rgb(117, 114, 114);
+  border: 1px solid #fff;
 }
 .searchIcon {
   position: absolute;
@@ -48,12 +48,21 @@ body {
 }
 
 .submenu_font {
-  font-size: 18px;
+  margin-right: 5rem;
+  font-size: 17px;
 }
 
-@media screen and (min-device-width: 768px) and (max-device-width: 800px) {
+@media screen and (min-device-width: 768px) and (max-device-width: 960px) {
   .submenu_font {
     font-size: 13px;
+    margin-right: 4px;
+  }
+}
+
+@media screen and (min-device-width: 960px) and (max-device-width: 1024px) {
+  .submenu_font {
+    font-size: 16px;
+    margin-right: 1rem;
   }
 }
 
