@@ -19,12 +19,12 @@ body {
   height: 35px;
   padding: 15px;
   border-radius: 10px;
-  border: 1px solid rgb(117, 114, 114);
+  border: 1px solid #fff;
 }
 .searchIcon {
   position: absolute;
-  top: 10px;
-  left: 10px;
+  top: 9px;
+  left: 12px;
 }
 .bellIcon {
   margin-top: 6px;
@@ -48,25 +48,22 @@ body {
 }
 
 .submenu_font {
-  font-size: 18px;
+  margin-right: 3rem;
+  font-size: 17px;
 }
 
-@media screen and (min-device-width: 768px) and (max-device-width: 800px) {
+@media screen and (min-device-width: 768px) and (max-device-width: 960px) {
   .submenu_font {
-    font-size: 13px;
+    font-size: 9px;
+    margin-right: 4px;
   }
 }
 
-/* employee detsils css */
-
-.search_container {
-  background: #f1f1f1;
-  border: 1px solid #f1f1f1;
-  padding: 10px;
-  box-shadow: 0px 0px 6px #f1f1f1;
-  border-radius: 6px;
-  height: 14rem;
-  margin: 10px;
+@media screen and (min-device-width: 960px) and (max-device-width: 1024px) {
+  .submenu_font {
+    font-size: 14px;
+    margin-right: 1rem;
+  }
 }
 
 /* employee css */
@@ -80,7 +77,15 @@ body {
 @media only screen and (max-width: 426px) {
   .employee_details {
     display: flex;
-    justify-content: center;
+    justify-content: start;
+  }
+
+  .employee_sheet {
+    padding: 3rem;
+  }
+
+  .employee_sheet_reponsive_header {
+    display: none;
   }
 }
 
@@ -88,4 +93,30 @@ body {
   .employee_details_header {
     font-size: 13px;
   }
+}
+
+.employee_general_manager {
+  font-size: 10px;
+  margin-left: 30px;
+}
+
+.employee_leave_balance {
+  background: #8a42fe;
+  border: 1px solid #8a42fe;
+  padding: 10px;
+  box-shadow: 0px 0px 6px #f1f1f1;
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+  height: 12rem;
+  color: #fff;
+}
+.employee_view_details {
+  background: #ffffff;
+  border: 1px solid #ffffff;
+  padding: 10px;
+  box-shadow: 0px 0px 6px #f1f1f1;
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+  height: 4rem;
+  color: #000;
 }
