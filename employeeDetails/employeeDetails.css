@@ -85,7 +85,11 @@ body {
   height: 14rem;
   margin: 10px;
 }
-
+.search_container:hover {
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2);
+}
 .addemp_container {
   background: #f2eeee;
   border: 1px solid #f1f1f1;
@@ -94,6 +98,11 @@ body {
   border-radius: 6px;
   height: 14rem;
   margin: 10px;
+}
+.addemp_container:hover {
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2);
 }
 .editemp_container {
   background: #f5f3dd;
@@ -104,6 +113,11 @@ body {
   height: 14rem;
   margin: 10px;
 }
+.editemp_container:hover {
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2);
+}
 .bulk_container {
   background: #f1fff1;
   border: 1px solid #f1f1f1;
@@ -112,6 +126,11 @@ body {
   border-radius: 6px;
   height: 14rem;
   margin: 10px;
+}
+.bulk_container:hover {
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2);
 }
 .poll_container {
   background: rgba(207, 255, 255, 0.35);
@@ -122,6 +141,11 @@ body {
   height: 14rem;
   margin: 10px;
 }
+.poll_container:hover {
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2);
+}
 .forms_container {
   background: #f8f9fb;
   border: 1px solid #f1f1f1;
@@ -130,6 +154,11 @@ body {
   border-radius: 6px;
   height: 14rem;
   margin: 10px;
+}
+.forms_container:hover {
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2);
 }
 .issue_container {
   background: #fcfcd7;
@@ -140,6 +169,11 @@ body {
   height: 14rem;
   margin: 10px;
 }
+.issue_container:hover {
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2);
+}
 .post_container {
   background: #ffe8ee;
   border: 1px solid #f1f1f1;
@@ -148,6 +182,11 @@ body {
   border-radius: 6px;
   height: 14rem;
   margin: 10px;
+}
+.post_container:hover {
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2);
 }
 .writepost_container {
   background: #ffe8ee;
@@ -158,6 +197,11 @@ body {
   height: 14rem;
   margin: 10px;
 }
+.writepost_container:hover {
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2);
+}
 .activate_container {
   background: #f6eee1;
   border: 1px solid #f1f1f1;
@@ -166,6 +210,11 @@ body {
   border-radius: 6px;
   height: 14rem;
   margin: 10px;
+}
+.activate_container:hover {
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2);
 }
 .reminder_container {
   background: #f2e5d5;
@@ -176,6 +225,11 @@ body {
   height: 14rem;
   margin: 10px;
 }
+.reminder_container:hover {
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2);
+}
 .compolicy_container {
   background: #b6bafc;
   border: 1px solid #f1f1f1;
@@ -184,6 +238,11 @@ body {
   border-radius: 6px;
   height: 14rem;
   margin: 10px;
+}
+.compolicy_container:hover {
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2);
 }
 .onboarding_container {
   background: #fbf3ec;
@@ -194,6 +253,11 @@ body {
   height: 14rem;
   margin: 10px;
 }
+.onboarding_container:hover {
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2);
+}
 .chnageRepo_container {
   background: #ffd9d1;
   border: 1px solid #f1f1f1;
@@ -202,6 +266,11 @@ body {
   border-radius: 6px;
   height: 14rem;
   margin: 10px;
+}
+.changeRepo_container:hover {
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2);
 }
 .viewmanager_container {
   background: #e9e8ff;
@@ -212,6 +281,11 @@ body {
   height: 14rem;
   margin: 10px;
 }
+.viewmanager_container:hover {
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2);
+}
 .openposition_container {
   background: #c9d0e9;
   border: 1px solid #f1f1f1;
@@ -220,6 +294,11 @@ body {
   border-radius: 6px;
   height: 14rem;
   margin: 10px;
+}
+.openposition_container:hover {
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2);
 }
 .eseperation_container {
   background: #fffdf6;
@@ -230,6 +309,11 @@ body {
   height: 14rem;
   margin: 10px;
 }
+.eseperation_container:hover {
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2);
+}
 .confirmprobation_container {
   background: #d3e3d3;
   border: 1px solid #f1f1f1;
@@ -238,6 +322,11 @@ body {
   border-radius: 6px;
   height: 14rem;
   margin: 10px;
+}
+.confirmprobation_container:hover {
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2);
 }
 .organization_container {
   background: #fff2ce;
@@ -248,6 +337,11 @@ body {
   height: 14rem;
   margin: 10px;
 }
+.organization_container:hover {
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2);
+}
 .groupemail_container {
   background: #f8f9fb;
   border: 1px solid #f1f1f1;
@@ -256,6 +350,11 @@ body {
   border-radius: 6px;
   height: 14rem;
   margin: 10px;
+}
+.groupemail_container:hover {
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2);
 }
 .document_container {
   background: #face9b;
@@ -266,6 +365,11 @@ body {
   height: 14rem;
   margin: 10px;
 }
+.document_container:hover {
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2);
+}
 .request_container {
   background: #d9ebeb;
   border: 1px solid #f1f1f1;
@@ -274,6 +378,11 @@ body {
   border-radius: 6px;
   height: 14rem;
   margin: 10px;
+}
+.request_container:hover {
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2);
 }
 .report_container {
   background: #e1e1e1;
@@ -284,6 +393,11 @@ body {
   height: 14rem;
   margin: 10px;
 }
+.report_container:hover {
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2);
+}
 .configure_container {
   background: #e1e7ef;
   border: 1px solid #f1f1f1;
@@ -292,4 +406,9 @@ body {
   border-radius: 6px;
   height: 14rem;
   margin: 10px;
+}
+.configure_container:hover {
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2);
 }
