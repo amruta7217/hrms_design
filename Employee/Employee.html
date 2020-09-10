@@ -49,7 +49,7 @@
       </div>
       <div class="col-md-4 col-lg-3 col-7">
         <div class="searchbar">
-          <input type="search" class="searchField" placeholder="" />
+          <input type="search" class="searchField pl-5" placeholder="" />
           <div class="searchIcon">
             <i
               class="fa fa-search"
@@ -91,7 +91,7 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-3">
+      <div class="col-12 col-sm-12 col-md-4 col-lg-2 col-xl-2">
         <nav
           id="navbar-example2"
           class="navbar navbar-expand-md navbar-light bg-light d-md-none d-lg-none d-xl-none"
@@ -160,25 +160,17 @@
                   Dhwani
                 </a>
               </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle font-weight-bold submenu_font"
-                  href="#"
-                  id="navbarDropdown"
-                  role="button"
-                  data-toggle="dropdown"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                >
-                  More
+              <li class="nav-item">
+                <a class="nav-link submenu_font font-weight-bold" href="">
+                  Performance
                 </a>
-                <!-- <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div> -->
               </li>
+              <li class="nav-item">
+                <a class="nav-link submenu_font font-weight-bold" href="">
+                  Visitors
+                </a>
+              </li>
+             
             </ul>
           </div>
         </nav>
@@ -198,7 +190,7 @@
             <div style="line-height: 10px">Director</div>
           </div>
 
-          <div class="mt-3 employee_details employee_details_header">
+          <div class="mt-3 employee_details employee_details_header" style="font-size: 13px;">
             5 years-10 months-5 days
           </div>
           <div class="mt-3 d-flex employee_details">
@@ -227,9 +219,9 @@
             <img
               src="../img/MOBILE.png"
               alt="logo"
-              width="10"
+              width="15"
               height="20"
-              class="mr-3"
+              class="mr-4"
             />
 
             <div class="employee_details_header">Mobile Official</div>
@@ -238,9 +230,9 @@
             <img
               src="../img/MOBILE.png"
               alt="logo"
-              width="10"
+              width="15"
               height="20"
-              class="mr-3"
+              class="mr-4"
             />
 
             <div class="employee_details_header">Mobile Personal</div>
@@ -317,7 +309,7 @@
           />
         </div>
       </div>
-      <div class="col-12 col-sm-12 col-md-8 col-lg-9 col-xl-9">
+      <div class="col-12 col-sm-12 col-md-8 col-lg-10 col-xl-10">
         <div class="pt-5 employee_sheet">
           <div class="employee_sheet_reponsive_header">
             <h1>Robin Harris</h1>
@@ -342,10 +334,10 @@
               <a class="submenuWidth"></a>
 
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav">
+                <ul class="navbar-nav" id="navigation">
                   <li class="nav-item">
                     <a
-                      class="nav-link submenu_font font-weight-bold"
+                      class="nav-link submenu_font font-weight-bold active"
                       href="../dashbord/dashboard.html"
                     >
                       Dashboard
@@ -390,24 +382,15 @@
                       Dhwani
                     </a>
                   </li>
-                  <li class="nav-item dropdown">
-                    <a
-                      class="nav-link dropdown-toggle font-weight-bold submenu_font"
-                      href="#"
-                      id="navbarDropdown"
-                      role="button"
-                      data-toggle="dropdown"
-                      aria-haspopup="true"
-                      aria-expanded="false"
-                    >
-                      More
+                  <li class="nav-item">
+                    <a class="nav-link submenu_font font-weight-bold" href="">
+                      Performance
                     </a>
-                    <!-- <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <a class="dropdown-item" href="#">Action</a>
-                      <a class="dropdown-item" href="#">Another action</a>
-                      <div class="dropdown-divider"></div>
-                      <a class="dropdown-item" href="#">Something else here</a>
-                    </div> -->
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link submenu_font font-weight-bold" href="">
+                      Visitors
+                    </a>
                   </li>
                 </ul>
               </div>
@@ -451,7 +434,7 @@
                   />
                   <div class="mt-3 font-weight-bold" style="font-size: 3rem;">8.7</div>
                 </div>
-                <div class="text-center mt-2 font-weight-bold">Avg Working hours/day</div>
+                <div class="text-center mt-4 font-weight-bold">Avg Working hours/day</div>
               </div>
               <div class="employee_view_details d-flex justify-content-between align-items-center">
                 <div class="font-weight-bold" style="font-size: 10px;">View Details</div>
@@ -501,7 +484,7 @@
                   />
                   <div class="mt-3 font-weight-bold" style="font-size: 3rem;">01</div>
                 </div>
-                <div class="text-center mt-2 font-weight-bold">Performance Rating</div>
+                <div class="text-center mt-4 font-weight-bold">Performance Rating</div>
               </div>
               <div class="employee_view_details d-flex justify-content-between align-items-center">
                 <div class="font-weight-bold" style="font-size: 10px;">View Details</div>
@@ -568,6 +551,50 @@
 
         <div class="row mt-4 box_padding pr-2">
           <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+           <div class="employee_myteam_container">
+             <div class="d-flex justify-content-between p-3">
+               <div style="color:#fff;font-size:14px">My Team</div>
+               <div class="birth_circle">15</div>
+             </div>
+          </div>
+          <div class="employee_container">
+            <div class="row p-2">
+              <div class="col-6 col-sm-4 col-md-4 col-lg-4">
+                <img
+                src="../img/avtar.jpg"
+                alt="logo"
+                width="60"
+                height="60"
+                style="border-radius: 50%;"
+              />
+              <div class="mt-2 ml-4">John</div>
+              </div>
+              <div class="col-6 col-sm-4 col-md-4 col-lg-4">
+                <img
+                src="../img/avtar.jpg"
+                alt="logo"
+                width="60"
+                height="60"
+                style="border-radius: 50%;"
+              />
+              <div class="mt-2 ml-4">John</div>
+            </div>
+              <div class="col-6 col-sm-4 col-md-4 col-lg-4">
+                <img
+                src="../img/avtar.jpg"
+                alt="logo"
+                width="60"
+                height="60"
+                style="border-radius: 50%;"
+              />
+              <div class="mt-2 ml-4">John</div>
+            </div>
+              
+            </div>
+            
+          </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-6 col-lg-3">
            <div class="employee_birthday_container">
              <div class="d-flex justify-content-between p-3">
                <div style="color:#fff;font-size:14px">Birthday</div>
@@ -611,68 +638,26 @@
             
           </div>
           </div>
+         
           <div class="col-12 col-sm-6 col-md-6 col-lg-3">
             <div class="employee_anniversary_container">
               <div class="d-flex justify-content-between p-3">
-                <div style="color:#fff;font-size:14px">Anniversary</div>
+                <div style="color:#fff;font-size:14px">Reminders</div>
                 <div class="birth_circle">02</div>
               </div>
             </div>
-            <div class="employee_container">
-              <div class="row p-2">
-                <div class="col-6 col-sm-4 col-md-4 col-lg-4">
-                  <img
-                  src="../img/avtar.jpg"
-                  alt="logo"
-                  width="60"
-                  height="60"
-                  style="border-radius: 50%;"
-                />
-                <div class="mt-2 ml-4">John</div>
-                </div>
-                <div class="col-6 col-sm-4 col-md-4 col-lg-4">
-                  <img
-                  src="../img/avtar.jpg"
-                  alt="logo"
-                  width="60"
-                  height="60"
-                  style="border-radius: 50%;"
-                />
-                <div class="mt-2 ml-4">John</div>
-              </div>
-                <div class="col-6 col-sm-4 col-md-4 col-lg-4">
-                  <img
-                  src="../img/avtar.jpg"
-                  alt="logo"
-                  width="60"
-                  height="60"
-                  style="border-radius: 50%;"
-                />
-                <div class="mt-2 ml-4">John</div>
-              </div>
-                
-              </div>
-              
-            </div>
-          </div>
-          <div class="col-12 col-sm-6 col-md-6 col-lg-3">
-           <div class="employee_ToDo_container">
-            <div class="d-flex justify-content-between p-3">
-              <div style="color:#fff;font-size:14px">Reminder</div>
-              <div class="text-block">ADD</div>
-            </div>
-           </div>
            <div class="p-4">
             <div>
               <h3 class="font-weight-bold">Event</h3>
               <div class="d-flex justify-content-between">
-                <div class="todo_header">Arrangment of weeekend activity</div>
+                <div class="todo_header mr-2">Arrangment of weeekend activity</div>
                 <div>
                   <img
                   src="../img/edit.png"
                   alt="logo"
                   width="20"
                   height="20"
+                  class="mr-2"
                 />
                 </div>
                 <div>
@@ -701,17 +686,17 @@
                   height="60"
                   style="border-radius: 50%;"
                 />
-                <div class="mt-2">Company Policies</div>
+                <div class="mt-2">Request Status</div>
                 </div>
                 <div class="col-6 col-sm-4 col-md-4 col-lg-4">
                   <img
-                  src="../img/Organizationchart.png"
+                  src="../img/requisition.png"
                   alt="logo"
                   width="60"
                   height="60"
                   style="border-radius: 50%;"
                 />
-                <div class="mt-2">Organization Chart</div>
+                <div class="mt-2">Requisition</div>
               </div>
                 <div class="col-6 col-sm-4 col-md-4 col-lg-4">
                   <img
@@ -725,6 +710,39 @@
               </div>
                 <div class="col-6 col-sm-4 col-md-4 col-lg-4">
                   <img
+                  src="../img/travelpolicy.png"
+                  alt="logo"
+                  width="60"
+                  height="60"
+                  style="border-radius: 50%;"
+                  class="mt-2"
+                />
+                <div class="mt-2">Travel Policy</div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-4 col-lg-4">
+                  <img
+                  src="../img/leavepolicy1.png"
+                  alt="logo"
+                  width="60"
+                  height="60"
+                  style="border-radius: 50%;"
+                  class="mt-2"
+                />
+                <div class="mt-2">Leave Policy</div>
+              </div>
+                <div class="col-6 col-sm-4 col-md-4 col-lg-4">
+                  <img
+                  src="../img/attenpolicy.png"
+                  alt="logo"
+                  width="60"
+                  height="60"
+                  style="border-radius: 50%;"
+                  class="mt-2"
+                />
+                <div class="mt-2">Attendance Policy</div>
+              </div>
+                <div class="col-6 col-sm-4 col-md-4 col-lg-4">
+                  <img
                   src="../img/Poll.png"
                   alt="logo"
                   width="60"
@@ -732,7 +750,7 @@
                   style="border-radius: 50%;"
                   class="mt-2"
                 />
-                <div class="mt-2">Polls</div>
+                <div class="mt-2">Poll</div>
                 </div>
                 <div class="col-6 col-sm-4 col-md-4 col-lg-4">
                   <img
@@ -743,18 +761,18 @@
                   style="border-radius: 50%;"
                   class="mt-2"
                 />
-                <div class="mt-2">Request</div>
+                <div class="mt-2">E-Separation Request</div>
               </div>
                 <div class="col-6 col-sm-4 col-md-4 col-lg-4">
                   <img
-                  src="../img/report.png"
+                  src="../img/searchemp.png"
                   alt="logo"
                   width="60"
                   height="60"
                   style="border-radius: 50%;"
                   class="mt-2"
                 />
-                <div class="mt-2">Reports</div>
+                <div class="mt-2">Search Employee</div>
               </div>
             </div>
         </div>

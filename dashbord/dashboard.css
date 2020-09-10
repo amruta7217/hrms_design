@@ -101,6 +101,14 @@ nav ul li a {
   }
 }
 
+.navbar-light .navbar-nav .nav-item .nav-link:hover {
+  color: #7cbe5f;
+}
+
+#navigation .nav-item .active {
+  color: #7cbe5f;
+}
+
 .employee_container {
   border: 1px solid #fff;
   padding: 10px;

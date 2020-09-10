@@ -59,6 +59,14 @@ body {
   }
 }
 
+.navbar-light .navbar-nav .nav-item .nav-link:hover {
+  color: #7cbe5f;
+}
+
+#navigation .nav-item .active {
+  color: #7cbe5f;
+}
+
 @media screen and (min-device-width: 960px) and (max-device-width: 1024px) {
   .submenu_font {
     font-size: 16px;

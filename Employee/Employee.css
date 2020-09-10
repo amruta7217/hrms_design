@@ -54,8 +54,8 @@ body {
 
 @media screen and (min-device-width: 768px) and (max-device-width: 960px) {
   .submenu_font {
-    font-size: 9px;
-    margin-right: 4px;
+    font-size: 0.8rem;
+    margin-right: 0px;
   }
 }
 
@@ -64,6 +64,14 @@ body {
     font-size: 14px;
     margin-right: 1rem;
   }
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link:hover {
+  color: #7cbe5f;
+}
+
+#navigation .nav-item .active {
+  color: #7cbe5f;
 }
 
 /* employee css */
@@ -214,21 +222,30 @@ body {
 
 .employee_birthday_container {
   /* background-color: rgb(rig, 58, 58); */
-  background-image: url("../img/Birthdays.png");
+  background-image: url('../img/Birthdays.png');
   height: 4rem;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.employee_myteam_container {
+  /* background-color: rgb(rig, 58, 58); */
+  background: #373435;
+  height: 4rem;
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  border-top-left-radius: 6px;
+}
 .employee_anniversary_container {
   /* background-color: red; */
-  background-image: url("../img/Anniversary.png");
+  background-image: url('../img/Anniversary.png');
   height: 4rem;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .employee_ToDo_container {
   /* background-color: red; */
-  background-image: url("../img/ToDo.png");
+  background-image: url('../img/ToDo.png');
   height: 4rem;
   background-repeat: no-repeat;
   background-size: cover;
@@ -236,7 +253,7 @@ body {
 
 .employee_QuickLinks_container {
   /* background-color: red; */
-  background-image: url("../img/QuickLinks.png");
+  background-image: url('../img/QuickLinks.png');
   height: 4rem;
   background-repeat: no-repeat;
   background-size: cover;
@@ -253,6 +270,9 @@ body {
     margin-top: 10px;
   }
   .employee_birthday_container {
+    margin-top: 10px;
+  }
+  .employee_myteam_container {
     margin-top: 10px;
   }
 }
