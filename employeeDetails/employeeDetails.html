@@ -1,51 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
-    />
-    <meta
-      name="description"
-      content="Creative - Bootstrap 3 Responsive Admin Template"
-    />
-    <meta name="author" content="GeeksLabs" />
-    <meta
-      name="keyword"
-      content="Creative, Dashboard, Admin, Template, Theme, Bootstrap, Responsive, Retina, Minimal"
-    />
-
-    <title>
-      Employee
-    </title>
+    <title>Employee</title>
 
     <link href="employeeDetails.css" rel="stylesheet" />
     <!-- Bootstrap CSS -->
     <link href="../css/bootstrap.min.css" rel="stylesheet" />
     <!-- bootstrap theme -->
-    <link href="../css/bootstrap-theme.css" rel="stylesheet" />
+    <!-- <link href="../css/bootstrap-theme.css" rel="stylesheet" /> -->
     <!--external css-->
     <link
       rel="stylesheet"
       type="text/css"
       href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
     />
+    <link href="../css/style.css" rel="stylesheet" />
+
+    <link href="../css/style-responsive.css" rel="stylesheet" />
+
     <!--chart theme-->
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
     />
-    <link href="../css/style.css" rel="stylesheet" />
 
-    <link href="../css/style-responsive.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
     <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   </head>
 
   <body>
-    <div class="row" style="background: #7cbe5f; padding: 12px 20px;">
+    <div class="row" style="background: #7cbe5f; padding: 12px 20px">
       <div class="col-md-5 col-lg-7 col-5">
         <div class="logo">S U P Y N E</div>
       </div>
@@ -56,7 +45,7 @@
             <i
               class="fa fa-search"
               aria-hidden="true"
-              style="color: #727376;"
+              style="color: #727376"
             ></i>
           </div>
         </div>
@@ -247,7 +236,11 @@
           <div class="mt-4 font-weight-bold">Forms</div>
         </div>
       </div>
-      <div class="col-12 col-sm-6 col-md-3 col-lg-2">
+      <div
+        class="col-12 col-sm-6 col-md-3 col-lg-2"
+        data-toggle="modal"
+        data-target="#myModal"
+      >
         <div class="issue_container text-center">
           <img
             src="../img/employees/issue letter.svg"
@@ -461,6 +454,128 @@
             class="mt-4"
           />
           <div class="mt-4 font-weight-bold">Configure</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="myModal" role="dialog">
+      <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content" style="background:#f8f9fb">
+          
+          <div class="modal-body">
+            <button type="button" class="close text-right pr-3 pt-3" data-dismiss="modal">
+              &times;
+            </button>
+            <div class="row p-5  ">
+              <div class="col-12 col-md-4 col-lg-4 col-sm-6  mb-5">
+                <div class="offer_letter_container text-center">
+                  
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img
+                        src="../img/offerletter.png"
+                        alt="offer"
+                        width="50"
+                        height="50"
+                        class=""
+                      />
+                    
+                    </div>
+                    <div class="text-center mt-4 font-weight-bold">Open Position</div>
+                  
+                </div>
+              </div>
+              <div class="col-12 col-md-4 col-lg-4 col-sm-6  mb-5">
+                <div class="relieving_letter_container text-center">
+                  
+                  <div class="d-flex justify-content-center align-items-center">
+                    <img
+                      src="../img/relivingletter.png"
+                      alt="searc"
+                      width="50"
+                      height="50"
+                      class=""
+                    />
+                  
+                  </div>
+                  <div class="text-center mt-4 font-weight-bold">Relieving Letter</div>
+                
+              </div>
+              </div>
+              <div class="col-12 col-md-4 col-lg-4 col-sm-6  mb-5">
+                <div class="address_container text-center">
+                  
+                  <div class="d-flex justify-content-center align-items-center">
+                    <img
+                      src="../img/addressproof.png"
+                      alt="searc"
+                      width="50"
+                      height="50"
+                      class=""
+                    />
+                  
+                  </div>
+                  <div class="text-center mt-4 font-weight-bold">Address Proof</div>
+                
+              </div>
+
+              </div>
+          
+            
+              <div class="col-12 col-md-4 col-lg-4 col-sm-6  mb-5">
+                <div class="appointment_letter_container text-center">
+                  
+                  <div class="d-flex justify-content-center align-items-center">
+                    <img
+                      src="../img/appointment.png"
+                      alt="searc"
+                      width="50"
+                      height="50"
+                      class=""
+                    />
+                  
+                  </div>
+                  <div class="text-center mt-4 font-weight-bold">Appointment Letter</div>
+                
+              </div>
+              </div>
+              <div class="col-12 col-md-4 col-lg-4 col-sm-6  mb-5">
+                <div class="termination_letter_container text-center">
+                  
+                  <div class="d-flex justify-content-center align-items-center">
+                    <img
+                      src="../img/termination.png"
+                      alt="searc"
+                      width="50"
+                      height="50"
+                      class=""
+                    />
+                  
+                  </div>
+                  <div class="text-center mt-4 font-weight-bold">Termination Letter</div>
+                
+              </div>
+              </div>
+              <div class="col-12 col-md-4 col-lg-4 col-sm-6  mb-5">
+                <div class="appraisal_letter_container text-center">
+                  
+                  <div class="d-flex justify-content-center align-items-center">
+                    <img
+                      src="../img/appraisal.png"
+                      alt="searc"
+                      width="50"
+                      height="50"
+                      class=""
+                    />
+                  
+                  </div>
+                  <div class="text-center mt-4 font-weight-bold">Appraisal Letter</div>
+                
+              </div>
+              </div>
+            
+          </div>
+         
         </div>
       </div>
     </div>
