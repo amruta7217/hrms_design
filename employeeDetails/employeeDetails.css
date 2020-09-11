@@ -466,3 +466,40 @@ body {
   height: 12rem;
   color: #191919;
 }
+
+.active_btn {
+  background: #169a0c;
+  width: 70%;
+  border-color: #169a0c;
+  color: #fff;
+  border-radius: 4px;
+  border: 1px solid #169a0c;
+  padding: 6px;
+}
+.deactive_btn {
+  background: #ff0101;
+  width: 70%;
+  border-color: #ff0101;
+  color: #fff;
+  border-radius: 4px;
+  border: 1px solid #ff0101;
+  padding: 6px;
+}
+.fnf_btn {
+  background: #ff621c;
+  width: 70%;
+  border-color: #ff621c;
+  color: #fff;
+  border-radius: 4px;
+  border: 1px solid #ff621c;
+  padding: 6px;
+}
+.cancel_btn {
+  background: #0064fb;
+  width: 70%;
+  border-color: #0064fb;
+  color: #fff;
+  border-radius: 4px;
+  border: 1px solid #0064fb;
+  padding: 6px;
+}
