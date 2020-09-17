@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="56.36" height="56.36" viewBox="0 0 56.36 56.36">
+    <defs>
+        <linearGradient id="ie84vfbfja" x1=".5" x2=".5" y1="1" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#cbf251"/>
+            <stop offset="1" stop-color="#90b704"/>
+        </linearGradient>
+        <linearGradient id="24ex337bnb" x1=".5" x2=".5" y1="1" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#cbf251"/>
+            <stop offset="1" stop-color="#6d990d"/>
+        </linearGradient>
+        <linearGradient id="e5s3cc81fc" x1=".5" x2=".5" y1="1" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#263886"/>
+            <stop offset="1" stop-color="#0e203a"/>
+        </linearGradient>
+        <linearGradient id="w99c5nxuid" x1="-7.638" x2="-8.345" y1="-5.115" y2="-4.408" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#fff"/>
+            <stop offset=".201" stop-color="#f3f9f9"/>
+            <stop offset=".696" stop-color="#dbecee"/>
+            <stop offset="1" stop-color="#d2e7ea"/>
+        </linearGradient>
+    </defs>
+    <g transform="rotate(45 14.09 34.016)">
+        <circle cx="19.926" cy="19.926" r="19.926" fill="url(#ie84vfbfja)"/>
+        <path fill="url(#24ex337bnb)" d="M122.614 256H98.021l2.315 17.249a19.945 19.945 0 0 0 19.962 0z" transform="translate(-90.391 -236.074)"/>
+        <circle cx="12.297" cy="12.297" r="12.297" fill="url(#e5s3cc81fc)" transform="translate(7.63 7.63)"/>
+        <path fill="url(#w99c5nxuid)" d="M179.275 168.219a1.557 1.557 0 0 0-2.658 1.1v7.3h-7.3a1.557 1.557 0 0 0 0 3.113h8.853a1.557 1.557 0 0 0 1.557-1.557v-8.855a1.552 1.552 0 0 0-.452-1.101z" transform="translate(-154.706 -154.705)"/>
+    </g>
+</svg>

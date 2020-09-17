@@ -59,6 +59,31 @@ body {
   }
 }
 
+/* @media screen and (max-device-width: 320px) {
+  .collapse-burger-menu {
+    margin-left: -12rem;
+  }
+  .collapse-navigation-menu {
+    margin-left: 0rem;
+  }
+}
+@media screen and (min-device-width: 321px) and (max-device-width: 375px) {
+  .collapse-burger-menu {
+    margin-left: -16rem;
+  }
+  .collapse-navigation-menu {
+    margin-left: 0rem;
+  }
+}
+@media screen and (min-device-width: 376px) and (max-device-width: 425px) {
+  .collapse-burger-menu {
+    margin-left: -18rem;
+  }
+  .collapse-navigation-menu {
+    margin-left: 0rem;
+  }
+} */
+
 .navbar-light .navbar-nav .nav-item .nav-link:hover {
   color: #7cbe5f;
 }

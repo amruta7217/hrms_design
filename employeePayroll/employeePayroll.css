@@ -1,0 +1,11 @@
+.payroll-calender {
+  position: relative;
+}
+
+.payroll-month {
+  position: absolute;
+  font-size: 16px;
+  left: 44px;
+  top: 48px;
+  color: #fff;
+}
