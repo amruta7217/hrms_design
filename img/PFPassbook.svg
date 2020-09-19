@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="38.289" height="38.833" viewBox="0 0 38.289 38.833">
+    <defs>
+        <style>
+            .cls-1{fill:#ededed}.cls-4{fill:#2d2d2d}
+        </style>
+    </defs>
+    <g id="PFPassbook" transform="translate(-3.358)">
+        <g id="Group_16" transform="translate(4.018 8.414)">
+            <path id="Path_103" d="M14.593 104h-.14v11.65l-1.544 14.239h36.743l-1.544-14.239V104z" class="cls-1" transform="translate(-12.796 -104)"/>
+            <path id="Path_104" d="M11.621 424l-.1 1.037.109-1.037z" class="cls-1" transform="translate(-11.517 -398.112)"/>
+            <path id="Path_105" d="M467.094 424h-.009l.113 1.037z" class="cls-1" transform="translate(-430.229 -398.112)"/>
+        </g>
+        <path id="Path_106" fill="#d84444" d="M11.368 425.037a2.588 2.588 0 0 0 2.576 2.846H45.76a2.589 2.589 0 0 0 2.576-2.846L48.224 424H11.48z" transform="translate(-7.35 -389.698)"/>
+        <path id="Path_107" fill="#12addd" d="M65.652 15.767v-5.178A2.589 2.589 0 0 0 63.063 8H34.586A2.589 2.589 0 0 0 32 10.589v5.178h33.652z" transform="translate(-26.322 -7.353)"/>
+        <g id="Group_17" transform="translate(3.358)">
+            <path id="Rectangle_43" d="M0 0H3.883V1.294H0z" class="cls-4" transform="translate(5.553 11.65)"/>
+            <path id="Rectangle_44" d="M0 0H3.883V1.294H0z" class="cls-4" transform="translate(13.967 11.65)"/>
+            <path id="Rectangle_45" d="M0 0H3.236V1.294H0z" class="cls-4" transform="translate(22.38 11.65)"/>
+            <path id="Rectangle_46" d="M0 0H3.883V1.294H0z" class="cls-4" transform="translate(29.5 11.65)"/>
+            <path id="Rectangle_47" d="M0 0H3.883V1.294H0z" class="cls-4" transform="translate(5.553 14.886)"/>
+            <path id="Rectangle_48" d="M0 0H3.883V1.294H0z" class="cls-4" transform="translate(13.967 14.886)"/>
+            <path id="Rectangle_49" d="M0 0H3.236V1.294H0z" class="cls-4" transform="translate(22.38 14.886)"/>
+            <path id="Rectangle_50" d="M0 0H3.883V1.294H0z" class="cls-4" transform="translate(29.5 14.886)"/>
+            <path id="Path_108" d="M221.075 285.825a.648.648 0 0 1-.647-.647h-1.294a1.939 1.939 0 0 0 1.293 1.822v.766h1.294V287a1.939 1.939 0 0 0 1.294-1.823.645.645 0 0 0-.19-.458l-2.358-2.358a.647.647 0 0 1 1.254.227h1.294a1.939 1.939 0 0 0-1.294-1.823V280h-1.294v.766a1.939 1.939 0 0 0-1.294 1.823.645.645 0 0 0 .19.458l2.358 2.358a.65.65 0 0 1-.606.42z" class="cls-4" transform="translate(-201.676 -257.348)"/>
+            <path id="Rectangle_51" d="M0 0H6.472V1.294H0z" class="cls-4" transform="translate(26.516 24.594)"/>
+            <path id="Rectangle_52" d="M0 0H7.119V1.294H0z" class="cls-4" transform="translate(27.163 28.477)"/>
+            <path id="Rectangle_53" d="M0 0H6.472V1.294H0z" class="cls-4" transform="translate(5.807 24.594)"/>
+            <path id="Rectangle_54" d="M0 0H7.119V1.294H0z" class="cls-4" transform="translate(4.512 28.477)"/>
+            <path id="Rectangle_55" d="M0 0H1.294V2.589H0z" class="cls-4" transform="translate(32.089 2.589)"/>
+            <path id="Rectangle_56" d="M0 0H1.294V2.589H0z" class="cls-4" transform="translate(29.5 2.589)"/>
+            <path id="Rectangle_57" d="M0 0H1.294V2.589H0z" class="cls-4" transform="translate(26.911 2.589)"/>
+            <path id="Rectangle_58" d="M0 0H1.294V2.589H0z" class="cls-4" transform="translate(24.322 2.589)"/>
+            <path id="Rectangle_59" d="M0 0H2.589V1.294H0z" class="cls-4" transform="translate(5.553 2.589)"/>
+            <path id="Rectangle_60" d="M0 0H5.825V1.294H0z" class="cls-4" transform="translate(5.553 5.178)"/>
+            <path id="Path_109" d="M36.741 0H8.264a3.24 3.24 0 0 0-3.236 3.236v16.793L3.492 34.19c0 .017-.012.03-.014.047l-.1 1.037a3.237 3.237 0 0 0 3.22 3.558h31.813a3.237 3.237 0 0 0 3.221-3.558l-.1-1.037c0-.017-.011-.031-.014-.048l-1.541-14.16V3.236A3.24 3.24 0 0 0 36.741 0zM6.255 20.711h32.494l1.4 12.944H4.852zm.067-11.65h32.361v10.355H6.322zm1.942-7.767h28.477a1.944 1.944 0 0 1 1.942 1.942v4.53H6.322v-4.53a1.944 1.944 0 0 1 1.942-1.942zm-1.67 36.244A1.941 1.941 0 0 1 4.662 35.4l.049-.449h35.583l.049.454a1.941 1.941 0 0 1-1.932 2.135z" class="cls-4" transform="translate(-3.358)"/>
+        </g>
+    </g>
+</svg>
