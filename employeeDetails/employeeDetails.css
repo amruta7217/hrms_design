@@ -529,6 +529,28 @@ body {
   padding: 6px;
 }
 
+.set_btn {
+  height: 30px;
+  border-radius: 4px;
+  box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.16);
+  background-color: #7cbe5f;
+  color: #fff;
+}
+
+.cancel_btn {
+  height: 30px;
+  border-radius: 4px;
+  box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.16);
+  border: solid 1px #707070;
+  background-color: #ffffff;
+  color: #191919;
+}
+
+@media screen and (max-width: 766px) {
+  .cancel_btn {
+    margin-top: 12px;
+  }
+}
 @media screen and (min-width: 768px) {
   .modal-custom {
     margin-left: -38rem;
