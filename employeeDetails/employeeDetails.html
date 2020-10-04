@@ -612,25 +612,23 @@
       <div class="modal-dialog modal-lg">
         <!-- Modal content-->
         <div class="modal-content modal-custom" style="background: #f8f9fb;">
-          <!-- <div class="modal-header">
-            <h5 class="modal-title">Issue Letter</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <div class="modal-header" style="background: #7cbe5f; color: #fff;">
+            <div class="modal-title font-weight-bold" style="font-size: 16px;">
+              Employee Info
+            </div>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+              style="font-size: 22px;"
+            >
               <span aria-hidden="true">&times;</span>
             </button>
-          </div> -->
+          </div>
           <div class="modal-body">
-            <!-- <button
-              type="button"
-              class="close text-right pr-3 pt-3"
-              data-dismiss="modal"
-            >
-              &times;
-            </button> -->
-            <div class="row m-5 pt-5">
-              <div
-                class="col-12 col-sm-8 col-md-10 col-lg-8"
-                style="border-right: 1px solid #707070;"
-              >
+            <div class="row m-5">
+              <div class="col-12 col-sm-8 col-md-12 col-lg-8 employee-right">
                 <div class="d-flex justify-content-center">
                   <img
                     src="../img/avtar.jpg"
@@ -641,56 +639,109 @@
                     style="border-radius: 50%;"
                   />
                 </div>
-                <div class="mt-5 row justify-content-center">
-                  <div class="col-12 col-sm-3 col-md-6 col-lg-5">
-                    <div class="font-weight-bold">Name</div>
-                    <div class="mt-1 font-weight-bold">Designation</div>
-                    <div class="mt-1 font-weight-bold">Employee ID</div>
-                    <div class="mt-1 font-weight-bold">Tenure</div>
-                    <div class="mt-1 font-weight-bold">Reporting Manager</div>
+                <div class="row mt-5">
+                  <div
+                    class="col-4 col-sm-3 col-md-5 col-lg-3 font-weight-bold"
+                  >
+                    Name
                   </div>
-                  <div class="col-12 col-sm-3 col-md-6 col-lg-6">
-                    <div>
-                      <span class="mr-1">:</span>
-                      <span>Vaibhav Gopal Sinha</span>
-                    </div>
-                    <div class="mt-1">
-                      <span class="mr-1">:</span>
-                      <span>Assistant Manager Design</span>
-                    </div>
-                    <div class="mt-1">
-                      <span class="mr-1">:</span>
-                      <span>GIC-107</span>
-                    </div>
-                    <div class="mt-1">
-                      <span class="mr-1">:</span>
-                      <span>1 year,7 months</span>
-                    </div>
-                    <div class="mt-1">
-                      <span class="mr-1">:</span>
-                      <span>Amruta Amit Bhaije</span>
-                    </div>
+                  <div class="col-1 col-sm-3 col-md-1 col-lg-1">
+                    :
+                  </div>
+                  <div
+                    class="col-6 col-sm-3 col-md-6 col-lg-6 font-weight-bold"
+                  >
+                    Vaibhav Gopal Sinha
+                  </div>
+                </div>
+                <div class="row mt-3">
+                  <div
+                    class="col-4 col-sm-3 col-md-5 col-lg-3 font-weight-bold"
+                  >
+                    Designation
+                  </div>
+                  <div class="col-1 col-sm-3 col-md-1 col-lg-1">
+                    :
+                  </div>
+                  <div
+                    class="col-6 col-sm-3 col-md-6 col-lg-6 font-weight-bold"
+                  >
+                    Assistant Manager Design
+                  </div>
+                </div>
+                <div class="row mt-3">
+                  <div
+                    class="col-4 col-sm-3 col-md-5 col-lg-3 font-weight-bold"
+                  >
+                    Employee ID
+                  </div>
+                  <div class="col-1 col-sm-3 col-md-1 col-lg-1">
+                    :
+                  </div>
+                  <div
+                    class="col-6 col-sm-3 col-md-6 col-lg-6 font-weight-bold"
+                  >
+                    GIC-107
+                  </div>
+                </div>
+                <div class="row mt-3">
+                  <div
+                    class="col-4 col-sm-3 col-md-5 col-lg-3 font-weight-bold"
+                  >
+                    Tenure
+                  </div>
+                  <div class="col-1 col-sm-3 col-md-1 col-lg-1">
+                    :
+                  </div>
+                  <div
+                    class="col-6 col-sm-3 col-md-6 col-lg-6 font-weight-bold"
+                  >
+                    1 year, 7 months
+                  </div>
+                </div>
+                <div class="row mt-3">
+                  <div
+                    class="col-4 col-sm-3 col-md-5 col-lg-4 font-weight-bold"
+                  >
+                    Reporting Manager
+                  </div>
+                  <div class="col-1 col-sm-3 col-md-1 col-lg-1">
+                    :
+                  </div>
+                  <div
+                    class="col-6 col-sm-3 col-md-6 col-lg-6 font-weight-bold"
+                  >
+                    Amit Harichandra Bhaije
                   </div>
                 </div>
               </div>
 
-              <div class="col-12 col-sm-4 col-md-2 col-lg-4">
-                <div class="d-flex justify-content-center">
+              <div
+                class="col-12 col-sm-4 col-md-12 col-lg-4 d-flex flex-column"
+              >
+                <div class="employee-mobile-bottom"></div>
+                <div class="col-12 col-sm-4 col-md-3 col-lg-4">
                   <button type="button" class="active_btn">
                     Activate
                   </button>
                 </div>
-                <div class="d-flex justify-content-center mt-5">
+                <div
+                  class="col-12 col-sm-4 col-md-3 col-lg-4 employee-btn-size"
+                >
                   <button type="button" class="deactive_btn">
                     De-Activate
                   </button>
                 </div>
-                <div class="d-flex justify-content-center mt-5">
+                <div
+                  class="col-12 col-sm-4 col-md-3 col-lg-4 employee-btn-size"
+                >
                   <button type="button" class="fnf_btn">
                     FnF
                   </button>
                 </div>
-                <div class="d-flex justify-content-center mt-5">
+                <div
+                  class="col-12 col-sm-4 col-md-3 col-lg-4 employee-btn-size"
+                >
                   <button type="button" class="cancel_btn">
                     Cancel
                   </button>

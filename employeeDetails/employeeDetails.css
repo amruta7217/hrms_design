@@ -525,7 +525,7 @@ body {
 
 .active_btn {
   background: #169a0c;
-  width: 70%;
+  width: 131px;
   border-color: #169a0c;
   color: #fff;
   border-radius: 4px;
@@ -534,7 +534,7 @@ body {
 }
 .deactive_btn {
   background: #ff0101;
-  width: 70%;
+  width: 131px;
   border-color: #ff0101;
   color: #fff;
   border-radius: 4px;
@@ -543,7 +543,7 @@ body {
 }
 .fnf_btn {
   background: #ff621c;
-  width: 70%;
+  width: 131px;
   border-color: #ff621c;
   color: #fff;
   border-radius: 4px;
@@ -552,7 +552,7 @@ body {
 }
 .cancel_btn {
   background: #0064fb;
-  width: 70%;
+  width: 131px;
   border-color: #0064fb;
   color: #fff;
   border-radius: 4px;
@@ -577,11 +577,34 @@ body {
   color: #191919;
 }
 
+.employee-right {
+  border-right: 1px solid #707070;
+}
+
 @media screen and (max-width: 766px) {
   .cancel_btn {
     margin-top: 12px;
   }
 }
+
+.employee-btn-size {
+  margin-top: -1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .employee-right {
+    border-right: none;
+  }
+  .employee-mobile-bottom {
+    margin: 3rem 0;
+    border-bottom: 1px solid #707070;
+    border-right: none;
+  }
+  .employee-btn-size {
+    margin-top: 2rem;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .modal-custom {
     margin-left: -38rem;
