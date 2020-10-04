@@ -437,59 +437,90 @@ body {
   -webkit-transform: scale(1.2); /* Safari 3-8 */
   transform: scale(1.2);
 }
+
 .offer_letter_container {
   background: #fbf7c5;
   border: 1px solid #fbf7c5;
   padding: 10px;
-  box-shadow: 0px 0px 6px #f1f1f1;
+  box-shadow: 0px 0px 6px #fbf7c5;
   border-radius: 6px;
-  height: 12rem;
-  color: #191919;
+  height: 14rem;
+  margin: 10px;
+}
+.offer_letter_container:hover {
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2);
 }
 .relieving_letter_container {
   background: #cfffe2;
   border: 1px solid #cfffe2;
   padding: 10px;
-  box-shadow: 0px 0px 6px #f1f1f1;
+  box-shadow: 0px 0px 6px #cfffe2;
   border-radius: 6px;
-  height: 12rem;
-  color: #191919;
+  height: 14rem;
+  margin: 10px;
+}
+.relieving_letter_container:hover {
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2);
 }
 .address_container {
   background: #e1eafe;
   border: 1px solid #e1eafe;
   padding: 10px;
-  box-shadow: 0px 0px 6px #f1f1f1;
+  box-shadow: 0px 0px 6px #e1eafe;
   border-radius: 6px;
-  height: 12rem;
-  color: #191919;
+  height: 14rem;
+  margin: 10px;
+}
+.address_container:hover {
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2);
 }
 .appointment_letter_container {
   background: #ddbffc;
   border: 1px solid #ddbffc;
   padding: 10px;
-  box-shadow: 0px 0px 6px #f1f1f1;
+  box-shadow: 0px 0px 6px #ddbffc;
   border-radius: 6px;
-  height: 12rem;
-  color: #191919;
+  height: 14rem;
+  margin: 10px;
+}
+.appointment_letter_container:hover {
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2);
 }
 .termination_letter_container {
   background: #ffd5d8;
   border: 1px solid #ffd5d8;
   padding: 10px;
-  box-shadow: 0px 0px 6px #f1f1f1;
+  box-shadow: 0px 0px 6px #ffd5d8;
   border-radius: 6px;
-  height: 12rem;
-  color: #191919;
+  height: 14rem;
+  margin: 10px;
+}
+.termination_letter_container:hover {
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2);
 }
 .appraisal_letter_container {
   background: #cbf0fc;
   border: 1px solid #cbf0fc;
   padding: 10px;
-  box-shadow: 0px 0px 6px #f1f1f1;
+  box-shadow: 0px 0px 6px #cbf0fc;
   border-radius: 6px;
-  height: 12rem;
-  color: #191919;
+  height: 14rem;
+  margin: 10px;
+}
+.appraisal_letter_container:hover {
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2);
 }
 
 .active_btn {
