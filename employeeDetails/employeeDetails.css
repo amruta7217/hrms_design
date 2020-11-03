@@ -550,7 +550,7 @@ body {
   border: 1px solid #ff621c;
   padding: 6px;
 }
-.cancel_btn {
+.cancel_btn_modal {
   background: #0064fb;
   width: 131px;
   border-color: #0064fb;

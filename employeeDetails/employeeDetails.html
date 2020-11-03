@@ -614,7 +614,7 @@
         <div class="modal-content modal-custom" style="background: #f8f9fb;">
           <div class="modal-header" style="background: #7cbe5f; color: #fff;">
             <div class="modal-title font-weight-bold" style="font-size: 16px;">
-              Employee Info
+              Activate/Deactivate
             </div>
             <button
               type="button"
@@ -701,7 +701,7 @@
                 </div>
                 <div class="row mt-3">
                   <div
-                    class="col-4 col-sm-3 col-md-5 col-lg-4 font-weight-bold"
+                    class="col-4 col-sm-3 col-md-5 col-lg-3 font-weight-bold"
                   >
                     Reporting Manager
                   </div>
@@ -720,13 +720,17 @@
                 class="col-12 col-sm-4 col-md-12 col-lg-4 d-flex flex-column"
               >
                 <div class="employee-mobile-bottom"></div>
-                <div class="col-12 col-sm-4 col-md-3 col-lg-4">
+                <div
+                  class="col-12 col-sm-4 col-md-3 col-lg-4"
+                  style="margin-top: 2rem;"
+                >
                   <button type="button" class="active_btn">
                     Activate
                   </button>
                 </div>
                 <div
                   class="col-12 col-sm-4 col-md-3 col-lg-4 employee-btn-size"
+                  style="margin-top: -2rem;"
                 >
                   <button type="button" class="deactive_btn">
                     De-Activate
@@ -734,6 +738,7 @@
                 </div>
                 <div
                   class="col-12 col-sm-4 col-md-3 col-lg-4 employee-btn-size"
+                  style="margin-top: -2rem;"
                 >
                   <button type="button" class="fnf_btn">
                     FnF
@@ -741,8 +746,9 @@
                 </div>
                 <div
                   class="col-12 col-sm-4 col-md-3 col-lg-4 employee-btn-size"
+                  style="margin-top: -2rem;"
                 >
-                  <button type="button" class="cancel_btn">
+                  <button type="button" class="cancel_btn_modal">
                     Cancel
                   </button>
                 </div>
@@ -759,19 +765,30 @@
       <div class="modal-dialog">
         <!-- Modal content-->
         <div class="modal-content modal-custom" style="background: #f8f9fb;">
-          <div class="modal-body">
+          <div class="modal-header" style="background: #7cbe5f; color: #fff;">
+            <div class="modal-title font-weight-bold" style="font-size: 16px;">
+              Set Reminder
+            </div>
             <button
               type="button"
-              class="close text-right pr-3 pt-3"
+              class="close"
               data-dismiss="modal"
+              aria-label="Close"
+              style="font-size: 22px;"
             >
-              &times;
+              <span aria-hidden="true">&times;</span>
             </button>
+          </div>
+          <div class="modal-body">
             <div class="p-5">
               <form>
                 <div class="form-group">
                   <label class="font-weight-bold">Remind About:</label>
-                  <textarea class="form-control" rows="2"></textarea>
+                  <textarea
+                    class="form-control"
+                    rows="2"
+                    style="height: 80px;"
+                  ></textarea>
                 </div>
                 <div class="row">
                   <div class="col-12 col-sm-3 col-md-6 col-lg-6">
