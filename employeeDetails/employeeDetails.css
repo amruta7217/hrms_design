@@ -591,6 +591,20 @@ body {
   margin-top: -1rem;
 }
 
+.activate-top-margin {
+  margin-top: 2rem;
+}
+
+.deactivate-top-margin {
+  margin-top: -2rem;
+}
+.fnf-top-margin {
+  margin-top: -2rem;
+}
+.cancle-top-margin {
+  margin-top: -2rem;
+}
+
 @media screen and (max-width: 768px) {
   .employee-right {
     border-right: none;
@@ -602,6 +616,18 @@ body {
   }
   .employee-btn-size {
     margin-top: 2rem;
+  }
+  .activate-top-margin {
+    margin-top: 0rem;
+  }
+  .deactivate-top-margin {
+    margin-top: 1rem;
+  }
+  .fnf-top-margin {
+    margin-top: 1rem;
+  }
+  .cancle-top-margin {
+    margin-top: 1rem;
   }
 }
 
