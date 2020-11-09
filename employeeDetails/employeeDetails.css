@@ -700,9 +700,9 @@ body {
 }
 
 /* friday */
-.date-picker:nth-child(6) {
+/* .date-picker:nth-child(6) {
   color: green;
-}
+} */
 
 #monthAndYear {
   text-align: center;
